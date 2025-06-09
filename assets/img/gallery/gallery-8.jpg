@@ -1,0 +1,1649 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta property="og:title" content="Cisco Network Engineers &amp; Architects" />
+	<meta property="og:site_name" content="Cleo Consulting" />
+			<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://cleoconsult.com/xmlrpc.php" />
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script type="text/javascript"></script>
+	<!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Cisco Network Engineers &amp; Architects - Cleo Consulting</title>
+	<link rel="canonical" href="https://cleoconsult.com/cisco-network-engineers-architects/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Cisco Network Engineers &amp; Architects - Cleo Consulting" />
+	<meta property="og:description" content="Cisco Network Engineers &#038; Architects What They Do and Why They Are Important ? In today&#8217;s digital age, computer networks have become an integral part of almost every organization. Cisco Systems, a multinational technology conglomerate, is a leading provider of networking equipment and solutions. To implement and maintain these systems, organizations require skilled professionals, namely [&hellip;]" />
+	<meta property="og:url" content="https://cleoconsult.com/cisco-network-engineers-architects/" />
+	<meta property="og:site_name" content="Cleo Consulting" />
+	<meta property="article:modified_time" content="2023-04-11T15:49:20+00:00" />
+	<meta property="og:image" content="http://cleoconsult.com/wp-content/uploads/2023/04/datacenter-cartoon-composition-with-indoor-view-data-analysts-working-place-with-desktop-computer-servers-illustration_1284-65661.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://cleoconsult.com/cisco-network-engineers-architects/","url":"https://cleoconsult.com/cisco-network-engineers-architects/","name":"Cisco Network Engineers &amp; Architects - Cleo Consulting","isPartOf":{"@id":"https://cleoconsult.com/#website"},"primaryImageOfPage":{"@id":"https://cleoconsult.com/cisco-network-engineers-architects/#primaryimage"},"image":{"@id":"https://cleoconsult.com/cisco-network-engineers-architects/#primaryimage"},"thumbnailUrl":"http://cleoconsult.com/wp-content/uploads/2023/04/datacenter-cartoon-composition-with-indoor-view-data-analysts-working-place-with-desktop-computer-servers-illustration_1284-65661.png","datePublished":"2023-04-11T14:41:14+00:00","dateModified":"2023-04-11T15:49:20+00:00","breadcrumb":{"@id":"https://cleoconsult.com/cisco-network-engineers-architects/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://cleoconsult.com/cisco-network-engineers-architects/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cleoconsult.com/cisco-network-engineers-architects/#primaryimage","url":"http://cleoconsult.com/wp-content/uploads/2023/04/datacenter-cartoon-composition-with-indoor-view-data-analysts-working-place-with-desktop-computer-servers-illustration_1284-65661.png","contentUrl":"http://cleoconsult.com/wp-content/uploads/2023/04/datacenter-cartoon-composition-with-indoor-view-data-analysts-working-place-with-desktop-computer-servers-illustration_1284-65661.png"},{"@type":"BreadcrumbList","@id":"https://cleoconsult.com/cisco-network-engineers-architects/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://cleoconsult.com/"},{"@type":"ListItem","position":2,"name":"Cisco Network Engineers &amp; Architects"}]},{"@type":"WebSite","@id":"https://cleoconsult.com/#website","url":"https://cleoconsult.com/","name":"Cleo Consulting","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://cleoconsult.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Cleo Consulting &raquo; Feed" href="https://cleoconsult.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cleo Consulting &raquo; Comments Feed" href="https://cleoconsult.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/cleoconsult.com\/wp-includes\/js\/wp-emoji.js?ver=6.5.5","twemoji":"https:\/\/cleoconsult.com\/wp-includes\/js\/twemoji.js?ver=6.5.5"}};
+/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
+
+/**
+ * Emoji Settings as exported in PHP via _print_emoji_detection_script().
+ * @typedef WPEmojiSettings
+ * @type {object}
+ * @property {?object} source
+ * @property {?string} source.concatemoji
+ * @property {?string} source.twemoji
+ * @property {?string} source.wpemoji
+ * @property {?boolean} DOMReady
+ * @property {?Function} readyCallback
+ */
+
+/**
+ * Support tests.
+ * @typedef SupportTests
+ * @type {object}
+ * @property {?boolean} flag
+ * @property {?boolean} emoji
+ */
+
+/**
+ * IIFE to detect emoji support and load Twemoji if needed.
+ *
+ * @param {Window} window
+ * @param {Document} document
+ * @param {WPEmojiSettings} settings
+ */
+( function wpEmojiLoader( window, document, settings ) {
+	if ( typeof Promise === 'undefined' ) {
+		return;
+	}
+
+	var sessionStorageKey = 'wpEmojiSettingsSupports';
+	var tests = [ 'flag', 'emoji' ];
+
+	/**
+	 * Checks whether the browser supports offloading to a Worker.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {boolean}
+	 */
+	function supportsWorkerOffloading() {
+		return (
+			typeof Worker !== 'undefined' &&
+			typeof OffscreenCanvas !== 'undefined' &&
+			typeof URL !== 'undefined' &&
+			URL.createObjectURL &&
+			typeof Blob !== 'undefined'
+		);
+	}
+
+	/**
+	 * @typedef SessionSupportTests
+	 * @type {object}
+	 * @property {number} timestamp
+	 * @property {SupportTests} supportTests
+	 */
+
+	/**
+	 * Get support tests from session.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {?SupportTests} Support tests, or null if not set or older than 1 week.
+	 */
+	function getSessionSupportTests() {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = JSON.parse(
+				sessionStorage.getItem( sessionStorageKey )
+			);
+			if (
+				typeof item === 'object' &&
+				typeof item.timestamp === 'number' &&
+				new Date().valueOf() < item.timestamp + 604800 && // Note: Number is a week in seconds.
+				typeof item.supportTests === 'object'
+			) {
+				return item.supportTests;
+			}
+		} catch ( e ) {}
+		return null;
+	}
+
+	/**
+	 * Persist the supports in session storage.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {SupportTests} supportTests Support tests.
+	 */
+	function setSessionSupportTests( supportTests ) {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = {
+				supportTests: supportTests,
+				timestamp: new Date().valueOf()
+			};
+
+			sessionStorage.setItem(
+				sessionStorageKey,
+				JSON.stringify( item )
+			);
+		} catch ( e ) {}
+	}
+
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} set1 Set of Emoji to test.
+	 * @param {string} set2 Set of Emoji to test.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( context, set1, set2 ) {
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set1, 0, 0 );
+		var rendered1 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set2, 0, 0 );
+		var rendered2 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		return rendered1.every( function ( rendered2Data, index ) {
+			return rendered2Data === rendered2[ index ];
+		} );
+	}
+
+	/**
+	 * Determines if the browser properly renders Emoji that Twemoji can supplement.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( context, type, emojiSetsRenderIdentically ) {
+		var isIdentical;
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for Transgender flag compatibility. Added in Unicode 13.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDFF3\uFE0F\u200D\u26A7\uFE0F', // as a zero-width joiner sequence
+					'\uD83C\uDFF3\uFE0F\u200B\u26A7\uFE0F' // separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDDFA\uD83C\uDDF3', // as the sequence of two code points
+					'\uD83C\uDDFA\u200B\uD83C\uDDF3' // as the two code points separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather a five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					// as the flag sequence
+					'\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F',
+					// with each code point separated by a zero-width space
+					'\uD83C\uDFF4\u200B\uDB40\uDC67\u200B\uDB40\uDC62\u200B\uDB40\uDC65\u200B\uDB40\uDC6E\u200B\uDB40\uDC67\u200B\uDB40\uDC7F'
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Four and twenty blackbirds baked in a pie.
+				 *
+				 * To test for Emoji 15.0 support, try to render a new emoji: Blackbird.
+				 *
+				 * The Blackbird is a ZWJ sequence combining 🐦 Bird and ⬛ large black square.,
+				 *
+				 * 0x1F426 (\uD83D\uDC26) == Bird
+				 * 0x200D == Zero-Width Joiner (ZWJ) that links the code points for the new emoji or
+				 * 0x200B == Zero-Width Space (ZWS) that is rendered for clients not supporting the new emoji.
+				 * 0x2B1B == Large Black Square
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83D\uDC26\u200D\u2B1B', // as the zero-width joiner sequence
+					'\uD83D\uDC26\u200B\u2B1B' // separated by a zero-width space
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Checks emoji support tests.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {string[]} tests Tests.
+	 * @param {Function} browserSupportsEmoji Reference to browserSupportsEmoji function, needed due to minification.
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {SupportTests} Support tests.
+	 */
+	function testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically ) {
+		var canvas;
+		if (
+			typeof WorkerGlobalScope !== 'undefined' &&
+			self instanceof WorkerGlobalScope
+		) {
+			canvas = new OffscreenCanvas( 300, 150 ); // Dimensions are default for HTMLCanvasElement.
+		} else {
+			canvas = document.createElement( 'canvas' );
+		}
+
+		var context = canvas.getContext( '2d', { willReadFrequently: true } );
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		var supports = {};
+		tests.forEach( function ( test ) {
+			supports[ test ] = browserSupportsEmoji( context, test, emojiSetsRenderIdentically );
+		} );
+		return supports;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {string} src The url where the script is located.
+	 *
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+		script.src = src;
+		script.defer = true;
+		document.head.appendChild( script );
+	}
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	// Create a promise for DOMContentLoaded since the worker logic may finish after the event has fired.
+	var domReadyPromise = new Promise( function ( resolve ) {
+		document.addEventListener( 'DOMContentLoaded', resolve, {
+			once: true
+		} );
+	} );
+
+	// Obtain the emoji support from the browser, asynchronously when possible.
+	new Promise( function ( resolve ) {
+		var supportTests = getSessionSupportTests();
+		if ( supportTests ) {
+			resolve( supportTests );
+			return;
+		}
+
+		if ( supportsWorkerOffloading() ) {
+			try {
+				// Note that the functions are being passed as arguments due to minification.
+				var workerScript =
+					'postMessage(' +
+					testEmojiSupports.toString() +
+					'(' +
+					[
+						JSON.stringify( tests ),
+						browserSupportsEmoji.toString(),
+						emojiSetsRenderIdentically.toString()
+					].join( ',' ) +
+					'));';
+				var blob = new Blob( [ workerScript ], {
+					type: 'text/javascript'
+				} );
+				var worker = new Worker( URL.createObjectURL( blob ), { name: 'wpTestEmojiSupports' } );
+				worker.onmessage = function ( event ) {
+					supportTests = event.data;
+					setSessionSupportTests( supportTests );
+					worker.terminate();
+					resolve( supportTests );
+				};
+				return;
+			} catch ( e ) {}
+		}
+
+		supportTests = testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically );
+		setSessionSupportTests( supportTests );
+		resolve( supportTests );
+	} )
+		// Once the browser emoji support has been obtained from the session, finalize the settings.
+		.then( function ( supportTests ) {
+			/*
+			 * Tests the browser support for flag emojis and other emojis, and adjusts the
+			 * support settings accordingly.
+			 */
+			for ( var test in supportTests ) {
+				settings.supports[ test ] = supportTests[ test ];
+
+				settings.supports.everything =
+					settings.supports.everything && settings.supports[ test ];
+
+				if ( 'flag' !== test ) {
+					settings.supports.everythingExceptFlag =
+						settings.supports.everythingExceptFlag &&
+						settings.supports[ test ];
+				}
+			}
+
+			settings.supports.everythingExceptFlag =
+				settings.supports.everythingExceptFlag &&
+				! settings.supports.flag;
+
+			// Sets DOMReady to false and assigns a ready function to settings.
+			settings.DOMReady = false;
+			settings.readyCallback = function () {
+				settings.DOMReady = true;
+			};
+		} )
+		.then( function () {
+			return domReadyPromise;
+		} )
+		.then( function () {
+			// When the browser can not render everything we need to load a polyfill.
+			if ( ! settings.supports.everything ) {
+				settings.readyCallback();
+
+				var src = settings.source || {};
+
+				if ( src.concatemoji ) {
+					addScript( src.concatemoji );
+				} else if ( src.wpemoji && src.twemoji ) {
+					addScript( src.twemoji );
+					addScript( src.wpemoji );
+				}
+			}
+		} );
+} )( window, document, window._wpemojiSettings );
+
+/* ]]> */
+</script>
+<link rel='stylesheet' id='upk-site-css' href='https://cleoconsult.com/wp-content/plugins/ultimate-post-kit/assets/css/upk-site.css?ver=3.11.6' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://cleoconsult.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='acx_fsmi_styles-css' href='https://cleoconsult.com/wp-content/plugins/floating-social-media-icon/css/style.css?v=4.3.4&#038;ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='list-last-changes-css' href='https://cleoconsult.com/wp-content/plugins/list-last-changes/css/list-last-changes.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='prwirepro_main-css' href='https://cleoconsult.com/wp-content/plugins/press-release-distribution/assets/css/prwirepro_main.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://cleoconsult.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.0.9' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='cta-gutenberg-font-css' href='https://fonts.googleapis.com/css2?family=Lato%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C700%3B1%2C300%3B1%2C400%3B1%2C700&#038;display=swap&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cta-gutenberg-css-css' href='https://cleoconsult.com/wp-content/plugins/call-to-action-block-wppool/blocks/dist/blocks.style.build.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://cleoconsult.com/wp-content/themes/renovation/style.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://cleoconsult.com/wp-content/themes/cleo/style.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='renovation-progression-style-css' href='https://cleoconsult.com/wp-content/themes/cleo/style.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='renovation-progression-google-fonts-css' href='//fonts.googleapis.com/css?family=PT+Sans+Narrow%3A400%2C700%7CFira+Sans%3A300%2C400%2C400i%2C700%7C%26subset%3Dlatin&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://cleoconsult.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='progression-studios-custom-style-css' href='https://cleoconsult.com/wp-content/themes/renovation/css/progression_studios_custom_styles.css?ver=6.5.5' type='text/css' media='all' />
+<style id='progression-studios-custom-style-inline-css' type='text/css'>
+
+	
+	body #page-title-pro {background-image:url('http://cleoconsult.com/wp-content/uploads/revslider/slide-main-3.jpg'); }
+	
+	
+	
+	body #logo-pro img {
+		width:180px;
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+	.progression-studios-logo-position-center header#masthead-pro h1#logo-pro,
+	.progression-studios-logo-position-center h1#logo-pro {
+		margin-left:-90px;;
+	}
+	.progression-studios-logo-position-center  nav#site-navigation-right {
+		display:block;
+		margin-left:72px;
+	}
+	.progression-studios-logo-position-center #progression-nav-container {
+		margin-right:71px;
+	}
+	a, #progression-studios-woocommerce-single-bottom .woocommerce-tabs ul.wc-tabs li.active a {
+		color:#e18a00;
+	}
+	#progression-studios-woocommerce-single-bottom .woocommerce-tabs ul.wc-tabs li.active {
+		border-top-color:#e18a00;
+	}
+	a:hover {
+		color:#e18a00;
+	}
+	#renovation-progression-header-top .sf-mega, header ul .sf-mega {margin-left:-600px; width:1200px;}
+	body .elementor-section.elementor-section-boxed > .elementor-container {max-width:1200px;}
+	.width-container-pro {  width:1200px; }
+	
+		 header#masthead-pro { background-color:#252636;
+	}
+	body.progression-studios-header-sidebar-before #progression-inline-icons .progression-studios-social-icons, body.progression-studios-header-sidebar-before:before, header#masthead-pro {
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	body {
+		background-color:#ffffff;
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover; background-attachment: fixed;
+	}
+	#page-title-pro {
+		background-color:#cccccc;
+		
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	#progression-studios-page-title-container {
+		padding-top:150px;
+		padding-bottom:135px;
+		text-align:left;
+	}
+	.sidebar h4.widget-title:before { background-color:#f6c427; }
+	ul.progression-studios-header-social-icons li a {
+		margin-top:10px;
+		margin-bottom:9px;
+		background:#ffffff;
+		color:#140749;
+	}
+	
+	#renovation-progression-header-top ul.progression-studios-header-social-icons li a {
+		background:#ffffff;
+		color:#140749;
+	}
+	#renovation-progression-header-top ul.progression-studios-header-social-icons li a:hover,
+	ul.progression-studios-header-social-icons li a:hover {
+		background:rgba(255,255,255,  0.8);
+		color:#140749;
+	}
+	/* START BLOG STYLES */	
+	#page-title-pro.page-title-pro-post-page {
+		
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	.progression-blog-content {
+		border-color:#ebebeb;
+	}
+	.progression-studios-feaured-image {background:#ffffff;}
+	.progression-studios-feaured-image:hover a img { opacity:1;}
+	h2.progression-blog-title a {color:#3f3f3f;}
+	ul.progression-post-meta li a:hover,
+	h2.progression-blog-title a:hover {color:#e18a00;}
+	.progression-portfolio-post-content {background:#ffffff;}
+	/* END BLOG STYLES */
+	
+	/* START SHOP STYLES */
+	.progression-studios-shop-index-content {
+		background: #ffffff;
+		border-color:rgba(0,0,0,0.09);
+	}
+
+	ul.products li.product .progression-studios-shop-index-content .star-rating {display:none;}	
+	/* END SHOP STYLES */
+	
+	/* START BUTTON STYLES */
+	.infinite-nav-pro a:hover {
+		color:#393939;
+		background:#f6c427;
+		border-color:#f6c427;
+	}
+	
+	.widget select,
+	.woocommerce-page form.woocommerce-ordering select,
+	.wpneo-fields input[type='number'], .wpneo-fields input[type='text'], .wpneo-fields input[type='email'], .wpneo-fields input[type='password'],  .wpneo-fields textarea, .campaign_update_field_copy  input, .campaign_update_field_copy  textarea, #campaign_update_addon_field input, #campaign_update_addon_field textarea,
+	.woocommerce input, #content-pro .woocommerce table.shop_table .coupon input#coupon_code, #content-pro .woocommerce table.shop_table input, form.checkout.woocommerce-checkout textarea.input-text, form.checkout.woocommerce-checkout input.input-text,
+	.post-password-form input, .search-form input.search-field, .wpcf7 select, #respond textarea, #respond input, .wpcf7-form input, .wpcf7-form textarea {
+		background-color:#f5f5f5;
+		border-color:rgba(0,0,0,0.05);
+	}
+	.wp-block-button a.wp-block-button__link,
+	.post-password-form input[type=submit], #respond input.submit, .wpcf7-form input.wpcf7-submit {
+		font-size:17px;
+	}
+	
+	.progression-studios-blog-excerpt a.more-link,
+	.helpmeout-rewards-select_button button.select_rewards_button,
+	#boxed-layout-pro .woocommerce .shop_table input.button, #boxed-layout-pro .form-submit input#submit, #boxed-layout-pro #customer_login input.button, #boxed-layout-pro .woocommerce-checkout-payment input.button, #boxed-layout-pro button.button, #boxed-layout-pro a.button  {
+		font-size:16px;
+	}
+	
+	.widget select:focus,
+	.woocommerce-page form.woocommerce-ordering select,
+	.wp-block-button a.wp-block-button__link,
+	#reward_options input.button,
+	#wpneo-registration input#user-registration-btn,
+	#campaign_update_addon_field input.removecampaignupdate, button#wpneo-update-save, input#addcampaignupdate,
+	button#cc-image-upload-file-button,
+	input.wpneo-submit-campaign, input#wpneo_active_edit_form, .wpneo-buttons-group button#wpneo-edit, .wpneo-buttons-group button#wpneo-dashboard-btn-cancel, .wpneo-buttons-group button#wpneo-password-save, .wpneo-buttons-group button#wpneo-dashboard-save, .wpneo-buttons-group button#wpneo-contact-save, .wpneo-buttons-group button#wpneo-profile-save, button.wpneo_donate_button,
+	.woocommerce input, #content-pro .woocommerce table.shop_table .coupon input#coupon_code, #content-pro .woocommerce table.shop_table input, form.checkout.woocommerce-checkout textarea.input-text, form.checkout.woocommerce-checkout input.input-text,
+	#progression-checkout-basket a.cart-button-header-cart, .search-form input.search-field, .wpcf7 select, .post-password-form input, #respond textarea, #respond input, .wpcf7-form input, .wpcf7-form textarea {
+		border-radius:0px;
+	}
+	#helpmeeout-login-form:before {
+		border-bottom: 8px solid #f6c427;
+	}
+	#helpmeeout-login-form,
+	.product #campaign_loved_html,
+	ul.wpneo-crowdfunding-update li:hover span.round-circle,
+	.tags-progression a:hover,
+	.progression-page-nav a:hover, .progression-page-nav span, #content-pro ul.page-numbers li a:hover, #content-pro ul.page-numbers li span.current {
+		color:#393939;
+		background:#f6c427;
+	}
+	.progression-page-nav a:hover span {
+		color:#393939;
+	}
+	#progression-checkout-basket a.cart-button-header-cart, .flex-direction-nav a:hover, #boxed-layout-pro .woocommerce-shop-single .summary button.button,
+	#boxed-layout-pro .woocommerce-shop-single .summary a.button,
+	.mc4wp-form input[type='submit'] {
+		color:#393939;
+		background:#f6c427;
+	}
+	
+	.progression-studios-blog-excerpt a.more-link,
+	#special-savings-homepage .wpcf7-form input.wpcf7-submit:hover,
+	.wp-block-button a.wp-block-button__link,
+	.woocommerce form input.button,
+	.woocommerce form input.woocommerce-Button,
+	.helpmeout-rewards-select_button button.select_rewards_button,
+	button.wpneo_donate_button,
+	.sidebar ul.progression-studios-social-widget li a,
+	footer#site-footer .tagcloud a, .tagcloud a, body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
+	.post-password-form input[type=submit], #respond input.submit, .wpcf7-form input.wpcf7-submit,
+	#boxed-layout-pro .woocommerce .shop_table input.button, #boxed-layout-pro .form-submit input#submit, #boxed-layout-pro #customer_login input.button, #boxed-layout-pro .woocommerce-checkout-payment input.button, #boxed-layout-pro button.button, #boxed-layout-pro a.button {
+		color:#393939;
+		background:#f6c427;
+		border-radius:0px;
+		letter-spacing:0em;
+	}
+	.tags-progression a:hover {
+		color:#393939;
+		background:#f6c427;
+	}
+	.mobile-menu-icon-pro span.progression-mobile-menu-text,
+	#boxed-layout-pro .woocommerce-shop-single .summary button.button,
+	#boxed-layout-pro .woocommerce-shop-single .summary a.button {
+		letter-spacing:0em;
+	}
+	body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a {
+	border-radius:0px;
+	}
+	
+	.widget select:focus,
+	#progression-studios-woocommerce-single-top table.variations td.value select:focus,
+	.woocommerce-page form.woocommerce-ordering select:focus,
+	.wpneo-fields input[type='number']:focus, #wpneofrontenddata .wpneo-fields select:focus, .campaign_update_field_copy  input:focus, .campaign_update_field_copy  textarea:focus, #campaign_update_addon_field input:focus, #campaign_update_addon_field textarea:focus, .wpneo-fields input[type='text']:focus, .wpneo-fields input[type='email']:focus, .wpneo-fields input[type='password']:focus,  .wpneo-fields textarea:focus {
+		border-color:#f6c427;
+	}
+	.dashboard-head-date input[type='text']:focus,
+	#panel-search-progression .search-form input.search-field:focus, blockquote.alignleft, blockquote.alignright, body .woocommerce-shop-single table.variations td.value select:focus, .woocommerce input:focus, #content-pro .woocommerce table.shop_table .coupon input#coupon_code:focus, body #content-pro .woocommerce table.shop_table input:focus, body #content-pro .woocommerce form.checkout.woocommerce-checkout input.input-text:focus, body #content-pro .woocommerce form.checkout.woocommerce-checkout textarea.input-text:focus, form.checkout.woocommerce-checkout input.input-text:focus, form#mc-embedded-subscribe-form  .mc-field-group input:focus, .wpcf7-form select:focus, blockquote, .post-password-form input:focus, .search-form input.search-field:focus, #respond textarea:focus, #respond input:focus, .wpcf7-form input:focus, .wpcf7-form textarea:focus,
+	.widget.widget_price_filter form .price_slider_wrapper .price_slider .ui-slider-handle {
+		border-color:#f6c427;
+		outline:none;
+	}
+	body .woocommerce .woocommerce-MyAccount-content {
+		border-left-color:#f6c427;
+	}
+	.widget.widget_price_filter form .price_slider_wrapper .price_slider .ui-slider-range {
+		background:#f6c427;
+	}
+	
+	.progression-studios-blog-excerpt a.more-link:hover,
+	.single-product #content-pro ul.products li.product span.onsale,
+	.single-product #content-pro span.onsale,
+	#content-pro ul.products li.product span.onsale,
+	.wp-block-button a.wp-block-button__link:hover,
+	.woocommerce form input.button:hover,
+	.woocommerce form input.woocommerce-Button:hover,
+	body #progression-checkout-basket a.cart-button-header-cart:hover, #boxed-layout-pro .woocommerce-shop-single .summary button.button:hover,
+	#boxed-layout-pro .woocommerce-shop-single .summary a.button:hover, .mc4wp-form input[type='submit']:hover, .progression-studios-blog-cat-overlay a, .progression-studios-blog-cat-overlay a:hover,
+	.sidebar ul.progression-studios-social-widget li a:hover,
+	footer#site-footer .tagcloud a:hover, .tagcloud a:hover, #boxed-layout-pro .woocommerce .shop_table input.button:hover, #boxed-layout-pro .form-submit input#submit:hover, #boxed-layout-pro #customer_login input.button:hover, #boxed-layout-pro .woocommerce-checkout-payment input.button:hover, #boxed-layout-pro button.button:hover, #boxed-layout-pro a.button:hover, .post-password-form input[type=submit]:hover, #respond input.submit:hover, .wpcf7-form input.wpcf7-submit:hover {
+		color:#393939;
+		background:#ffd957;
+	}
+	.sidebar .star-rating,
+	.comment-form-rating .stars a,
+	.commentlist .star-rating,
+	#progression-studios-woocommerce-single-top .star-rating,
+	#content-pro ul.products .star-rating {
+		color:#ffd957;
+	}
+	.highlight-pro:before {
+		background:#ffd957;
+	}
+	/* END BUTTON STYLES */
+	
+	/* START Sticky Nav Styles */
+	.progression-sticky-scrolled #progression-studios-nav-bg,
+	.progression-studios-transparent-header .progression-sticky-scrolled #progression-studios-nav-bg,
+	.progression-studios-transparent-header .progression-sticky-scrolled header#masthead-pro, .progression-sticky-scrolled header#masthead-pro, #progression-sticky-header.progression-sticky-scrolled { background-color:#252636; }
+	body .progression-sticky-scrolled #logo-pro img {
+		
+		
+		
+	}
+	
+		
+	
+	
+	/* END Sticky Nav Styles */
+	/* START Main Navigation Customizer Styles */
+	nav#site-navigation-right,
+	#progression-shopping-cart-count a.progression-count-icon-nav, nav#site-navigation { letter-spacing: 0.05em; }
+	
+	.mobile-menu-icon-pro {
+		min-width:22px;
+		color:#ffffff;
+		padding-top:42px;
+		padding-bottom:40px;
+		font-size:22px;
+	}
+	.mobile-menu-icon-pro:hover, .active-mobile-icon-pro .mobile-menu-icon-pro {
+		color:#ffffff;
+	}
+	.mobile-menu-icon-pro span.progression-mobile-menu-text {
+		font-size:16px;
+	}
+	.progression-sticky-scrolled #progression-shopping-cart-count a.progression-count-icon-nav i.shopping-cart-header-icon {
+		color:rgba(255,255,255,  0.72);
+	}
+	.progression-sticky-scrolled  #progression-shopping-cart-count a.progression-count-icon-nav i.shopping-cart-header-icon:hover,
+	.progression-sticky-scrolled  .activated-class #progression-shopping-cart-count a.progression-count-icon-nav i.shopping-cart-header-icon,
+	#progression-shopping-cart-count a.progression-count-icon-nav i.shopping-cart-header-icon:hover,
+	.activated-class #progression-shopping-cart-count a.progression-count-icon-nav i.shopping-cart-header-icon { 
+		color:#ffffff;
+	}
+	#progression-studios-header-search-icon i.pe-7s-search span, #progression-studios-header-login-container a.progresion-studios-login-icon span {
+		font-size:16px;
+	}
+	#progression-studios-header-login-container a.progresion-studios-login-icon i.fa-sign-in {
+		font-size:22px;
+	}
+	.sf-menu a {
+		color:rgba(255,255,255,  0.72);
+		padding-top:45px;
+		padding-bottom:45px;
+		font-size:16px;
+		
+	}
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled  #progression-inline-icons .progression-studios-social-icons a,
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled  #progression-inline-icons .progression-studios-social-icons a,
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-studios-header-search-icon i.pe-7s-search, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-studios-header-login-container a.progresion-studios-login-icon, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu a,
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-studios-header-search-icon i.pe-7s-search,
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-studios-header-login-container a.progresion-studios-login-icon, 
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu a  {
+		color:rgba(255,255,255,  0.72);
+	}
+	
+		.sf-menu a:before {
+			background:#f6c427;
+		}
+		.sf-menu a:hover:before, .sf-menu li.sfHover a:before, .sf-menu li.current-menu-item a:before {
+			opacity:1;
+			background:#f6c427;
+		}
+		.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu a:before, 
+		.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu a:hover:before, 
+		.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover a:before, 
+		.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.current-menu-item a:before,
+	
+		.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu a:before, 
+		.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu a:hover:before, 
+		.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover a:before, 
+		.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.current-menu-item a:before {
+			background:#f6c427;
+		}
+			
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled  #progression-inline-icons .progression-studios-social-icons a:hover,
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled  #progression-inline-icons .progression-studios-social-icons a:hover,
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-studios-header-search-icon:hover i.pe-7s-search, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-studios-header-search-icon.active-search-icon-pro i.pe-7s-search, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-studios-header-login-container:hover a.progresion-studios-login-icon, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-studios-header-login-container.helpmeout-activated-class a.progresion-studios-login-icon, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-inline-icons .progression-studios-social-icons a:hover, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-shopping-cart-count a.progression-count-icon-nav:hover, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu a:hover, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover a, 
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.current-menu-item a,
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-studios-header-search-icon:hover i.pe-7s-search, 
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-studios-header-search-icon.active-search-icon-pro i.pe-7s-search, 
+	
+	
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-studios-header-login-container:hover a.progresion-studios-login-icon, 
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-studios-header-login-container.helpmeout-activated-class a.progresion-studios-login-icon, 
+	
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-inline-icons .progression-studios-social-icons a:hover, 
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-shopping-cart-count a.progression-count-icon-nav:hover, 
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu a:hover, 
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover a, 
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.current-menu-item a,
+	
+	#progression-studios-header-login-container:hover a.progresion-studios-login-icon, #progression-studios-header-login-container.helpmeout-activated-class a.progresion-studios-login-icon,
+	
+	#progression-studios-header-search-icon:hover i.pe-7s-search, #progression-studios-header-search-icon.active-search-icon-pro i.pe-7s-search, #progression-inline-icons .progression-studios-social-icons a:hover, #progression-shopping-cart-count a.progression-count-icon-nav:hover, .sf-menu a:hover, .sf-menu li.sfHover a, .sf-menu li.current-menu-item a {
+		color:#ffffff;
+	}
+	ul#progression-studios-panel-login, #progression-checkout-basket, #panel-search-progression, .sf-menu ul {
+		background:rgba(255,255,255,0.85);
+	}
+	#renovation-progression-header-top .sf-menu ul {border-top:3px solid #179ef4; }
+	
+	#main-nav-mobile { background:#ffffff; }
+	ul.mobile-menu-pro li a { color:#444444; }
+	ul.mobile-menu-pro li a {
+		letter-spacing:0em;
+	}
+	ul#progression-studios-panel-login li a, .sf-menu li li a { 
+		letter-spacing:0em;
+		font-size:14px;
+	}
+	#progression-checkout-basket .progression-sub-total {
+		font-size:14px;
+	}
+	ul#progression-studios-panel-login, #panel-search-progression input, #progression-checkout-basket ul#progression-cart-small li.empty { 
+		font-size:14px;
+	}
+	ul#progression-studios-panel-login a,
+	.progression-sticky-scrolled #progression-checkout-basket, .progression-sticky-scrolled #progression-checkout-basket a, .progression-sticky-scrolled .sf-menu li.sfHover li a, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li a, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li a, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, #panel-search-progression .search-form input.search-field, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover.highlight-button li a, .sf-menu li.current-menu-item.highlight-button li a, .progression-sticky-scrolled #progression-checkout-basket a.checkout-button-header-cart:hover, #progression-checkout-basket a.checkout-button-header-cart:hover, #progression-checkout-basket, #progression-checkout-basket a, .sf-menu li.sfHover li a, .sf-menu li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a {
+		color:#757575;
+	}
+	
+	.progression-sticky-scrolled ul#progression-studios-panel-login li a:hover, .progression-sticky-scrolled .sf-menu li li a:hover,  .progression-sticky-scrolled .sf-menu li.sfHover li a, .progression-sticky-scrolled .sf-menu li.current-menu-item li a, .sf-menu li.sfHover li a, .sf-menu li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a { 
+		background:none;
+	}
+	ul#progression-studios-panel-login a:hover,
+	.progression-sticky-scrolled #progression-checkout-basket a:hover, .progression-sticky-scrolled #progression-checkout-basket ul#progression-cart-small li h6, .progression-sticky-scrolled #progression-checkout-basket .progression-sub-total span.total-number-add, .progression-sticky-scrolled .sf-menu li.sfHover li a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover a, .progression-sticky-scrolled .sf-menu li.sfHover li li a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a, .progression-sticky-scrolled .sf-menu li.sfHover li li li a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .progression-sticky-scrolled .sf-menu li.sfHover li li li li a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression-sticky-scrolled .sf-menu li.sfHover li li li li li a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li li a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li li li a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li li li li a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li li a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li li li a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li li li li a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li li li li li a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li li a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li li li a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li li li li li a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li li a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li li li a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li li li li a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li li li li li a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover.highlight-button li a:hover, .sf-menu li.current-menu-item.highlight-button li a:hover, #progression-checkout-basket a.checkout-button-header-cart, #progression-checkout-basket a:hover, #progression-checkout-basket ul#progression-cart-small li h6, #progression-checkout-basket .progression-sub-total span.total-number-add, .sf-menu li.sfHover li a:hover, .sf-menu li.sfHover li.sfHover a, .sf-menu li.sfHover li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover li li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover li li li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover li li li li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a { 
+		color:#444444;
+		background:#ffffff;
+
+	}
+	
+	.progression_studios_force_dark_navigation_color .progression-sticky-scrolled #progression-shopping-cart-count span.progression-cart-count,
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled #progression-shopping-cart-count span.progression-cart-count,
+	#progression-shopping-cart-count span.progression-cart-count { 
+		background:#ffffff; 
+		color:#0a0715;
+	}
+	.progression-sticky-scrolled .sf-menu .progression-mini-banner-icon,
+	.progression-mini-banner-icon {
+		background:#ffffff; 
+		color:#000000;
+	}
+	.sf-menu li.highlight-button a:hover {
+		color:#ffffff; 
+	}
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.highlight-button a:before,  .progression_studios_force_dark_navigation_color .progression-sticky-scrolled .sf-menu li.highlight-button a:before, .sf-menu li.current-menu-item.highlight-button a:before, .sf-menu li.highlight-button a:before {
+		color:#ffffff; 
+		background:#179ef4; 
+		opacity:1;
+		width: 100%;
+		width: calc(100% - 9px);
+	}
+	.progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.current-menu-item.highlight-button a:hover:before, .progression_studios_force_light_navigation_color .progression-sticky-scrolled .sf-menu li.highlight-button a:hover:before, .sf-menu li.current-menu-item.highlight-button a:hover:before, .sf-menu li.highlight-button a:hover:before {
+		background:#0080d1; 
+		width: 100%;
+		width: calc(100% - 9px);
+	}
+	ul#progression-studios-panel-login li a, #progression-checkout-basket ul#progression-cart-small li, #progression-checkout-basket .progression-sub-total, #panel-search-progression .search-form input.search-field, .sf-mega li:last-child li a, body header .sf-mega li:last-child li a, .sf-menu li li a, .sf-mega h2.mega-menu-heading, .sf-mega ul, body .sf-mega ul, #progression-checkout-basket .progression-sub-total, #progression-checkout-basket ul#progression-cart-small li { 
+		border-color:rgba(0,0,0,  0.1);
+	}
+	
+	.sf-menu a:before {
+		margin-left:18px;
+	}
+	.sf-menu a:before {
+		width: calc(100% - 36px);
+		margin-top:22px;
+	}
+	.sf-menu a:hover:before, .sf-menu li.sfHover a:before, .sf-menu li.current-menu-item a:before {
+	   width: calc(100% - 36px);
+	}
+	.sf-menu a {
+		padding-left:18px;
+		padding-right:18px;
+	}
+	
+	.sf-menu li.highlight-button { 
+		margin-right:11px;
+		margin-left:11px;
+	}
+	.sf-arrows .sf-with-ul {
+		padding-right:33px;
+	}
+	.sf-arrows .sf-with-ul:after { 
+		right:27px;
+	}
+	
+	.rtl .sf-arrows .sf-with-ul {
+		padding-right:18px;
+		padding-left:33px;
+	}
+	.rtl  .sf-arrows .sf-with-ul:after { 
+		right:auto;
+		left:27px;
+	}
+	
+	@media only screen and (min-width: 960px) and (max-width: 1250px) {
+		header#masthead-pro.progression-studios-nav-left h1#logo-pro {
+			margin-right:16px;
+		}
+		ul.progression-studios-call-to-action li a {
+			padding-left:27px;
+			padding-right:27px;
+		}
+		.progression-studios-header-full-width-no-gap #renovation-progression-header-top .width-container-pro {
+			width:auto;
+			padding-right:26px;
+			padding-left:26px;
+		}
+		footer#site-footer.progression-studios-footer-full-width .width-container-pro,
+		.progression-studios-header-full-width #renovation-progression-header-top .width-container-pro,
+		.progression-studios-page-title-full-width #page-title-pro .width-container-pro,
+		.progression-studios-header-full-width #progression-studios-header-width header#masthead-pro .width-container-pro {
+			width:auto;
+			padding-right:25px;
+			padding-left:25px;
+		}
+
+		.sf-menu a:before {
+			margin-left:14px;
+		}
+		.sf-menu a:before, .sf-menu a:hover:before, .sf-menu li.sfHover a:before, .sf-menu li.current-menu-item a:before {
+		   width: calc(100% - 30px);
+		}
+		.sf-menu a {
+			padding-left:14px;
+			padding-right:14px;
+		}
+
+		.sf-menu a:before {
+			margin-left:14px;
+		}
+		.sf-arrows .sf-with-ul {
+			padding-right:31px;
+		}
+		.sf-arrows .sf-with-ul:after { 
+			right:25px;
+		}
+	}
+	.sf-menu a:hover, .sf-menu li.sfHover a, .sf-menu li.current-menu-item a { background:rgba(0,0,0, 0.1); }
+		
+	
+		
+	
+	
+	
+	
+	/* END Main Navigation Customizer Styles */
+	/* START Top Header Top Styles */
+	#renovation-progression-header-top {
+		font-size:15px;
+		display:none;
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	#renovation-progression-header-top .sf-menu a {
+		font-size:15px;
+	}
+	.progression-studios-header-left .widget, .progression-studios-header-right .widget {
+		padding-top:14px;
+		padding-bottom:14px;
+	}
+	#renovation-progression-header-top .sf-menu a {
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	#renovation-progression-header-top a, #renovation-progression-header-top .sf-menu a, #renovation-progression-header-top {
+		color:rgba(255,255,255,  0.85);
+	}
+	#renovation-progression-header-top a:hover, #renovation-progression-header-top .sf-menu a:hover, #renovation-progression-header-top .sf-menu li.sfHover a {
+		color:#ffffff;
+	}
+
+	#renovation-progression-header-top .sf-menu ul {
+		background:#ffffff;
+	}
+	#renovation-progression-header-top .sf-menu ul li a { 
+		border-color:#e5e5e5;
+	}
+
+	.progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, #renovation-progression-header-top .sf-menu li.sfHover li a, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li a, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li a, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a {
+		color:#717171; }
+	.progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top  .sf-menu li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li li a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li li li a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li li li li a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_light_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top  .sf-menu li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li li a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li li li a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li li li li li a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .progression_studios_force_dark_top_header_color #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, #renovation-progression-header-top .sf-menu li.sfHover li a:hover, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover a, #renovation-progression-header-top .sf-menu li.sfHover li li a:hover, #renovation-progression-header-top  .sf-menu li.sfHover li.sfHover li.sfHover a, #renovation-progression-header-top .sf-menu li.sfHover li li li a:hover, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover a:hover, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, #renovation-progression-header-top .sf-menu li.sfHover li li li li a:hover, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, #renovation-progression-header-top .sf-menu li.sfHover li li li li li a:hover, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, #renovation-progression-header-top .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a {
+		color:#444444;
+	}
+	#renovation-progression-header-top {
+		background-color:#333333;
+	}
+	#progression-studios-header-top-border-bottom {
+		
+	}
+	/* END Top Header Top Styles */
+	/* START FOOTER STYLES */
+	footer#site-footer {
+		background: #eaeaea;
+	}
+	#pro-scroll-top:hover {   color: #393939;    background: #f6c427;  }
+	footer#site-footer #copyright-text {  color: #767676;}
+	footer#site-footer #progression-studios-copyright a {  color: rgba(0,0,0,0.75);}
+	footer#site-footer #progression-studios-copyright a:hover { color: #000000; }
+	#pro-scroll-top {  color:#ffffff;  background: rgba(100,100,100,  0.65);  }
+	#copyright-text { padding:50px 0px 45px 0px; }
+	#progression-studios-footer-logo { max-width:250px; padding-top:45px; padding-bottom:0px; padding-right:0px; padding-left:0px; }
+	/* END FOOTER STYLES */
+	@media only screen and (max-width: 959px) { 
+		#progression-studios-page-title-container {
+			padding-top:120px;
+			padding-bottom:105px;
+		}
+		
+		 header#masthead-pro { background-color:#252636;
+	}
+		.progression-studios-transparent-header header#masthead-pro {
+			
+			background-repeat: no-repeat; background-position:center center; background-size: cover;
+		}
+		
+		
+		
+		
+	}
+	@media only screen and (min-width: 960px) and (max-width: 1300px) {
+		#progression-shopping-cart-count a.progression-count-icon-nav {
+			margin-left:4px;
+		}
+		.width-container-pro {
+			width:94%;
+			padding:0px;
+		}
+		footer#site-footer.progression-studios-footer-full-width .width-container-pro {
+			width:94%; 
+			padding:0px;
+		}
+		.progression-studios-header-full-width-no-gap.progression-studios-header-cart-width-adjustment header#masthead-pro .width-container-pro,
+		.progression-studios-header-full-width.progression-studios-header-cart-width-adjustment header#masthead-pro .width-container-pro {
+			width:98%;
+			margin-left:2%;
+			padding-right:0;
+		}
+		#renovation-progression-header-top ul .sf-mega,
+		header ul .sf-mega {
+			margin-right:0px;
+			margin-left:2%;
+			width:96%; 
+			left:0px;
+		}
+	}
+	.progression-studios-spinner { border-left-color:#ededed;  border-right-color:#ededed; border-bottom-color: #ededed;  border-top-color: #cccccc; }
+	.sk-folding-cube .sk-cube:before, .sk-circle .sk-child:before, .sk-rotating-plane, .sk-double-bounce .sk-child, .sk-wave .sk-rect, .sk-wandering-cubes .sk-cube, .sk-spinner-pulse, .sk-chasing-dots .sk-child, .sk-three-bounce .sk-child, .sk-fading-circle .sk-circle:before, .sk-cube-grid .sk-cube{ 
+		background-color:#cccccc;
+	}
+	#page-loader-pro {
+		background:#ffffff;
+		color:#cccccc; 
+	}
+	
+	::-moz-selection {color:#ffffff;background:#252636;}
+	::selection {color:#ffffff;background:#252636;}
+	
+</style>
+<link rel='stylesheet' id='elementor-icons-css' href='https://cleoconsult.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css?ver=5.29.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://cleoconsult.com/wp-content/plugins/elementor/assets/css/frontend.css?ver=3.21.5' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://cleoconsult.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.css?ver=8.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1004-css' href='https://cleoconsult.com/wp-content/uploads/elementor/css/post-1004.css?ver=1715172973' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://cleoconsult.com/wp-content/plugins/elementor-pro/assets/css/frontend.css?ver=3.21.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://cleoconsult.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css?ver=3.21.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://cleoconsult.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css?ver=3.21.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1470-css' href='https://cleoconsult.com/wp-content/uploads/elementor/css/post-1470.css?ver=1715210034' type='text/css' media='all' />
+<link rel='stylesheet' id='boosted-elements-progression-frontend-styles-css' href='https://cleoconsult.com/wp-content/plugins/boosted-elements-progression/assets/css/frontend.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='boosted-elements-progression-prettyphoto-optional-css' href='https://cleoconsult.com/wp-content/plugins/boosted-elements-progression/assets/css/prettyphoto.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFira+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.5.5' type='text/css' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/jquery/jquery.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/jquery/jquery-migrate.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0" id="tp-tools-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.0.9" id="revmin-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.js?ver=3.21.5" id="font-awesome-4-shim-js"></script>
+<link rel="https://api.w.org/" href="https://cleoconsult.com/wp-json/" /><link rel="alternate" type="application/json" href="https://cleoconsult.com/wp-json/wp/v2/pages/1470" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cleoconsult.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.5" />
+<link rel='shortlink' href='https://cleoconsult.com/?p=1470' />
+<link rel="alternate" type="application/json+oembed" href="https://cleoconsult.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcleoconsult.com%2Fcisco-network-engineers-architects%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cleoconsult.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcleoconsult.com%2Fcisco-network-engineers-architects%2F&#038;format=xml" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+
+
+<!-- Starting Styles For Social Media Icon From Acurax International www.acurax.com -->
+<style type='text/css'>
+#divBottomRight img 
+{
+width: 32px; 
+}
+</style>
+<!-- Ending Styles For Social Media Icon From Acurax International www.acurax.com -->
+
+
+
+<!-- HFCM by 99 Robots - Snippet # 1: HotJar -->
+<!-- Hotjar Tracking Code for my site -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3404328,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- /end HFCM by 99 Robots -->
+<!-- HFCM by 99 Robots - Snippet # 2: Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VPFGL3FMF6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VPFGL3FMF6');
+</script>
+<!-- /end HFCM by 99 Robots -->
+		<script type="text/javascript">
+				(function(c,l,a,r,i,t,y){
+					c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;
+					t.src="https://www.clarity.ms/tag/"+i+"?ref=wordpress";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+				})(window, document, "clarity", "script", "hbgqoyk572");
+		</script>
+		<meta name="generator" content="Elementor 3.21.5; features: e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.0.9 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://cleoconsult.com/wp-content/uploads/2014/11/cropped-l11-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cleoconsult.com/wp-content/uploads/2014/11/cropped-l11-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cleoconsult.com/wp-content/uploads/2014/11/cropped-l11-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cleoconsult.com/wp-content/uploads/2014/11/cropped-l11-270x270.png" />
+<script type="text/javascript">function setREVStartSize(a){try{var b,c=document.getElementById(a.c).parentNode.offsetWidth;if(c=0===c||isNaN(c)?window.innerWidth:c,a.tabw=void 0===a.tabw?0:parseInt(a.tabw),a.thumbw=void 0===a.thumbw?0:parseInt(a.thumbw),a.tabh=void 0===a.tabh?0:parseInt(a.tabh),a.thumbh=void 0===a.thumbh?0:parseInt(a.thumbh),a.tabhide=void 0===a.tabhide?0:parseInt(a.tabhide),a.thumbhide=void 0===a.thumbhide?0:parseInt(a.thumbhide),a.mh=void 0===a.mh||""==a.mh?0:a.mh,"fullscreen"===a.layout||"fullscreen"===a.l)b=Math.max(a.mh,window.innerHeight);else{for(var d in a.gw=Array.isArray(a.gw)?a.gw:[a.gw],a.rl)(void 0===a.gw[d]||0===a.gw[d])&&(a.gw[d]=a.gw[d-1]);for(var d in a.gh=void 0===a.el||""===a.el||Array.isArray(a.el)&&0==a.el.length?a.gh:a.el,a.gh=Array.isArray(a.gh)?a.gh:[a.gh],a.rl)(void 0===a.gh[d]||0===a.gh[d])&&(a.gh[d]=a.gh[d-1]);var e,f=Array(a.rl.length),g=0;for(var d in a.tabw=a.tabhide>=c?0:a.tabw,a.thumbw=a.thumbhide>=c?0:a.thumbw,a.tabh=a.tabhide>=c?0:a.tabh,a.thumbh=a.thumbhide>=c?0:a.thumbh,a.rl)f[d]=a.rl[d]<window.innerWidth?0:a.rl[d];for(var d in e=f[0],f)e>f[d]&&0<f[d]&&(e=f[d],g=d);var h=c>a.gw[g]+a.tabw+a.thumbw?1:(c-(a.tabw+a.thumbw))/a.gw[g];b=a.gh[g]*h+(a.tabh+a.thumbh)}void 0===window.rs_init_css&&(window.rs_init_css=document.head.appendChild(document.createElement("style"))),document.getElementById(a.c).height=b,window.rs_init_css.innerHTML+="#"+a.c+"_wrapper { height: "+b+"px }"}catch(a){console.log("Failure at Presize of Slider:"+a)}};</script>
+		<style type="text/css" id="wp-custom-css">
+			#progression-studios-page-title-container {
+	padding-top: 100px;
+		padding-bottom:75px;
+}		</style>
+			<style id="egf-frontend-styles" type="text/css">
+		body,  body input, body textarea, select {} h1 {text-decoration: none;} h2 {text-decoration: none;} h3 {text-decoration: none;} h4 {text-decoration: none;} h5 {text-decoration: none;} h6 {text-decoration: none;} #page-title-pro h1 {} #page-title-pro h4 {} #main-nav-mobile, ul.progression-studios-call-to-action li a, #progression-studios-header-search-icon i.pe-7s-search span, #progression-studios-header-login-container a.progresion-studios-login-icon span, nav#site-navigation-right, nav#site-navigation, nav#progression-studios-right-navigation {} ul#progression-studios-panel-login, .sf-menu ul, ul.mobile-menu-pro li a {} #renovation-progression-header-top {} body #progression-sticky-header header ul.mobile-menu-pro h2.mega-menu-heading a,
+body header ul.mobile-menu-pro .sf-mega h2.mega-menu-heading a, ul.mobile-menu-pro .sf-mega h2.mega-menu-heading a, ul.mobile-menu-pro .sf-mega h2.mega-menu-heading, .sf-mega h2.mega-menu-heading, body #progression-sticky-header header .sf-mega h2.mega-menu-heading a, body header .sf-mega h2.mega-menu-heading a {} .sidebar h4.widget-title, .sidebar h2.widget-title {text-decoration: none;} .sidebar {text-decoration: none;} .sidebar a {text-decoration: none;} .sidebar ul li.current-cat, .sidebar ul li.current-cat a, .sidebar a:hover {text-decoration: none;} .progression-studios-blog-excerpt a.more-link, .tags-progression a, .tagcloud a, .post-password-form input[type=submit], #respond input.submit, .wpcf7-form input.wpcf7-submit {text-decoration: none;} h2.progression-blog-title {} ul.progression-post-meta li, ul.progression-post-meta li a {} ul.progression-post-meta li a:hover {} 	</style>
+	</head>
+<body class="page-template-default page page-id-1470 elementor-default elementor-kit-1004 elementor-page elementor-page-1470">
+		<div id="page-loader-pro">
+		<div id="center-loader">
+		
+				 
+		 		 
+		 		 
+		 
+		  		 
+		 
+		 		 
+		
+				 
+		 		  
+  		 		  
+		  
+   		
+  	   <div class="progression-studios-spinner"></div>
+   			 
+
+			 			 
+		</div>
+	</div>	<div id="boxed-layout-pro" 	class="
+					progression-studios-header-full-width 
+		progression-studios-logo-position-center 
+		 
+						
+											progression-studios-one-page-nav-off		 progression-studios-preloader	"
+>
+		
+		<div id="progression-studios-header-position">
+		<div id="renovation-progression-header-top" class="progression_studios_hide_top_left_bar progression_studios_hide_top_left_right">
+	
+		<div id="progression-studios-header-top-border-bottom">
+			<div class="width-container-pro">
+		<div class="progression-studios-header-left">
+			<div id="progression-header-top-left-container" class="menu-menu-left-container"><ul id="menu-menu-left" class="sf-menu"><li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-179"><a    ><span class="progression-studios-menu-title">About Us</span></a>
+<ul class="menu-pro sub-menu">
+	<li class="normal-item-pro  current-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a    href="https://cleoconsult.com/team/"><span class="progression-studios-menu-title">Our Team</span></a></li>
+	<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a    href="https://cleoconsult.com/our-social-responsibility/"><span class="progression-studios-menu-title">Our Social Responsibility</span></a></li>
+</ul>
+</li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6"><a    href="http://cleoconsult.com/#staff"><span class="progression-studios-menu-title">Managed Services</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-2671"><a    href="https://cleoconsult.com/cleo-health-services/"><span class="progression-studios-menu-title">Health Services</span></a></li>
+</ul></div>						
+						
+			<div class="clearfix-pro"></div>
+		</div>
+
+		<div class="progression-studios-header-right">
+									<div id="progression-header-top-right-container" class="menu-menu-right-container"><ul id="menu-menu-right" class="sf-menu"><li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-2675"><a    href="/#projects"><span class="progression-studios-menu-title">Projects</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-789"><a    href="http://cleoconsult.com/#jobs"><span class="progression-studios-menu-title">Jobs</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-785"><a    href="https://cleoconsult.com/contact/"><span class="progression-studios-menu-title">Contact Us</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-790"><a    href="https://cleoconsult.com/blogs/"><span class="progression-studios-menu-title">Blogs</span></a></li>
+</ul></div>			<div class="clearfix-pro"></div>
+		</div>
+		
+		<div class="clearfix-pro"></div>
+		</div><!-- close .width-container-pro -->
+		
+		</div><!-- close #progression-studios-header-top-border-bottom -->
+</div><!-- close #header-top -->		
+		<div id="progression-studios-header-width">
+		
+				<header id="masthead-pro" class="progression-studios-site-header">
+					
+										
+						<div id="logo-nav-pro">
+						
+							<div class="width-container-pro progression-studios-logo-container">
+								
+								<h1 id="logo-pro" class="logo-inside-nav-pro noselect">	<a href="https://cleoconsult.com/" title="Cleo Consulting" rel="home">		
+		
+	
+		
+			<img src="http://cleoconsult.com/wp-content/uploads/2014/11/l11.png" alt="Cleo Consulting" class="progression-studios-default-logo	">
+		
+		</a>
+</h1>
+							
+									
+	
+			<div class="grid2column-progression">
+			
+			<div class="mobile-menu-icon-pro noselect"><i class="fa fa-bars"></i></div>
+			
+			
+			<div id="progression-nav-container">
+				<nav id="site-navigation" class="main-navigation">
+					<div class="menu-menu-left-container"><ul id="menu-menu-left-1" class="sf-menu"><li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-179"><a    ><span class="progression-studios-menu-title">About Us</span></a>
+<ul class="menu-pro sub-menu">
+	<li class="normal-item-pro  current-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a    href="https://cleoconsult.com/team/"><span class="progression-studios-menu-title">Our Team</span></a></li>
+	<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a    href="https://cleoconsult.com/our-social-responsibility/"><span class="progression-studios-menu-title">Our Social Responsibility</span></a></li>
+</ul>
+</li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6"><a    href="http://cleoconsult.com/#staff"><span class="progression-studios-menu-title">Managed Services</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-2671"><a    href="https://cleoconsult.com/cleo-health-services/"><span class="progression-studios-menu-title">Health Services</span></a></li>
+</ul></div><div class="clearfix-pro"></div>
+				</nav>
+				<div class="clearfix-pro"></div>
+			</div><!-- close #progression-nav-container -->
+		</div><!-- close .grid2column-progression -->
+		
+		<div class="grid2column-progression lastcolumn-progression">
+			<nav id="site-navigation-right">
+			<div class="menu-menu-right-container"><ul id="menu-menu-right-1" class="sf-menu"><li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-2675"><a    href="/#projects"><span class="progression-studios-menu-title">Projects</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-789"><a    href="http://cleoconsult.com/#jobs"><span class="progression-studios-menu-title">Jobs</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-785"><a    href="https://cleoconsult.com/contact/"><span class="progression-studios-menu-title">Contact Us</span></a></li>
+<li class="normal-item-pro  current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-790"><a    href="https://cleoconsult.com/blogs/"><span class="progression-studios-menu-title">Blogs</span></a></li>
+</ul></div><div class="clearfix-pro"></div>
+			</nav>
+		</div><!-- close .grid2column-progression -->
+
+		<div class="clearfix-pro"></div>
+			
+	
+		
+								
+							</div><!-- close .width-container-pro -->
+						
+							
+						
+						</div><!-- close #logo-nav-pro -->
+						
+						
+		<div id="main-nav-mobile">
+	
+							<div class="menu-mobile-navigation-container"><ul id="menu-mobile-navigation" class="mobile-menu-pro"><li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-204"><a    href="https://cleoconsult.com/"><span class="progression-studios-menu-title">Home</span></a></li>
+<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-1030"><a    href="https://cleoconsult.com/team/"><span class="progression-studios-menu-title">Our Team</span></a></li>
+<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a    href="https://cleoconsult.com/our-social-responsibility/"><span class="progression-studios-menu-title">Our Social Responsibility</span></a></li>
+<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-1032"><a    href="https://cleoconsult.com/projects-onshore-or-offshore/"><span class="progression-studios-menu-title">Projects &#8211; Onshore or Offshore</span></a></li>
+<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a    href="https://cleoconsult.com/jobs/"><span class="progression-studios-menu-title">Jobs</span></a></li>
+<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a    href="https://cleoconsult.com/our-areas-of-specialization/"><span class="progression-studios-menu-title">MANAGED SERVICES</span></a></li>
+<li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a    href="https://cleoconsult.com/contact/"><span class="progression-studios-menu-title">Contact us</span></a></li>
+</ul></div>						
+									
+			<div class="clearfix-pro"></div>
+		</div><!-- close #mobile-menu-container -->				
+									
+				</header>
+			</div><!-- close #progression-studios-header-width -->
+			
+		</div><!-- close #progression-studios-header-position -->
+	
+	
+		<div id="page-title-pro">
+			<div id="progression-studios-page-title-container">
+				<div class="width-container-pro">
+				<h1 class="page-title">Cisco Network Engineers &amp; Architects</h1>								</div><!-- close .width-container-pro -->
+			</div><!-- close #progression-studios-page-title-container -->
+			<div class="clearfix-pro"></div>
+			
+	</div><!-- #page-title-pro -->
+	
+
+	<div id="content-pro">
+		<div class="width-container-pro">
+
+
+							
+	<div id="post-1470" class="post-1470 page type-page status-publish hentry">
+	
+		<div class="page-content-pro">
+			
+					<div data-elementor-type="wp-page" data-elementor-id="1470" class="elementor elementor-1470" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-03b5371 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="03b5371" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-660b0a7" data-id="660b0a7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-628bf41 elementor-widget elementor-widget-heading" data-id="628bf41" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Cisco Network Engineers & Architects</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-12d185a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="12d185a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-47b743f" data-id="47b743f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d44871d elementor-widget elementor-widget-heading" data-id="d44871d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><h3 class="elementor-heading-title elementor-size-default elementor-inline-editing pen" data-elementor-setting-key="title" data-pen-placeholder="Type Here..." style="color: rgb(0, 0, 0); font-weight: var( --e-global-typography-primary-font-weight ); font-family: var( --e-global-typography-primary-font-family ), Sans-serif;">What They Do and Why They Are Important ?</h3><span style="color: rgb(122, 122, 122); font-size: 15px; font-weight: 400; white-space: normal;">In today's digital age, computer networks have become an integral part of almost every organization. Cisco Systems, a multinational technology conglomerate, is a leading provider of networking equipment and solutions. To implement and maintain these systems, organizations require skilled professionals, namely Cisco Network Engineers and Architects. In this article, we will explore the roles and importance of Cisco Network Engineers and Architects.</span><br><br><h2 class="elementor-heading-title elementor-size-default elementor-inline-editing pen" data-elementor-setting-key="title" data-pen-placeholder="Type Here..." style="color: rgb(0, 0, 0); font-weight: var( --e-global-typography-primary-font-weight ); font-family: var( --e-global-typography-primary-font-family ), Sans-serif;">What is a Cisco Network Engineer?</h2><span style="color: rgb(122, 122, 122); font-size: 15px; font-weight: 400; white-space: normal;">A Cisco Network Engineer is a professional who specializes in designing, implementing, and maintaining computer networks that use Cisco equipment and technologies. Their responsibilities include configuring routers and switches, troubleshooting network issues, and ensuring network security. They are required to have a deep understanding of Cisco networking technologies and protocols such as OSPF, BGP, and VLAN.</span></h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-55a6642" data-id="55a6642" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-fdd2fcd elementor-widget elementor-widget-image" data-id="fdd2fcd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="740" height="518" src="https://cleoconsult.com/wp-content/uploads/2023/04/datacenter-cartoon-composition-with-indoor-view-data-analysts-working-place-with-desktop-computer-servers-illustration_1284-65661.png" class="attachment-large size-large wp-image-1482" alt="" srcset="https://cleoconsult.com/wp-content/uploads/2023/04/datacenter-cartoon-composition-with-indoor-view-data-analysts-working-place-with-desktop-computer-servers-illustration_1284-65661.png 740w, https://cleoconsult.com/wp-content/uploads/2023/04/datacenter-cartoon-composition-with-indoor-view-data-analysts-working-place-with-desktop-computer-servers-illustration_1284-65661-300x210.png 300w" sizes="(max-width: 740px) 100vw, 740px" />													</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-df105d4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="df105d4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-746e88e" data-id="746e88e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-24534bc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="24534bc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a5b93d7" data-id="a5b93d7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9b7f31e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9b7f31e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c2ba4d3" data-id="c2ba4d3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-abc8975 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="abc8975" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-371d56c" data-id="371d56c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-cdeeeee elementor-widget elementor-widget-heading" data-id="cdeeeee" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What is a Cisco Network Architect?</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4a5b261 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4a5b261" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8c810f6" data-id="8c810f6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c1b5f27 elementor-widget elementor-widget-text-editor" data-id="c1b5f27" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A Cisco Network Architect is a professional who designs and plans the architecture of a computer network that uses Cisco technologies. Their responsibilities include analyzing business requirements, selecting appropriate Cisco equipment and technologies, and designing network topologies that meet the organization&#8217;s needs. They are required to have a deep understanding of Cisco networking technologies and protocols, as well as experience with network design and planning.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7b518f1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7b518f1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-88f8366" data-id="88f8366" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4024f3c elementor-widget elementor-widget-heading" data-id="4024f3c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">The Importance of Cisco Network Engineers and Architects</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a636606 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a636606" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0a69dd6" data-id="0a69dd6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ad6c2fb elementor-widget elementor-widget-text-editor" data-id="ad6c2fb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Cisco Network Engineers and Architects play a critical role in ensuring the efficiency and security of an organization&#8217;s computer network. They are responsible for ensuring that the network is designed and configured in a way that meets the organization&#8217;s needs while also maintaining the network&#8217;s integrity and security. In today&#8217;s world, where cybersecurity threats are becoming more sophisticated and frequent, the role of Cisco Network Engineers and Architects has become more critical than ever.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ffed3d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ffed3d5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ddd1b0" data-id="1ddd1b0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-65f7586 elementor-widget elementor-widget-text-editor" data-id="65f7586" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In conclusion, Cisco Network Engineers and Architects are essential professionals for any organization that uses Cisco networking equipment and solutions. They are responsible for designing, implementing, and maintaining the organization&#8217;s computer network to ensure its efficiency and security. With the increasing importance of computer networks and the growing sophistication of cybersecurity threats, the role of Cisco Network Engineers and Architects has become even more critical.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+					
+			<div class="clearfix-pro"></div>
+					</div><!-- .entry-content -->
+	
+	</div><!-- #post-## -->
+
+	
+						
+			<div class="clearfix-pro"></div>
+		</div><!-- close .width-container-pro -->
+	</div><!-- #content-pro -->
+	
+	
+	<footer style="background: #04162B!important;"
+	class="progression-studios-footer-full-width footer-copyright-align-center">
+	<div id="progression-studios-copyright" style="background: #04162B!important;">
+		<div id="copyright-divider-top"></div>
+		<div class="width-container-pro">
+			<div id="copyright-text" style="">
+					<div class="">&copy; 2025 cleoconsult.com</div>
+					<div class="">Maintained by &nbsp;<a style="vertical-align: middle;"
+							href="https://www.rovae.in" target="_blank">
+							Rovae Inc.
+						</a>
+					</div>
+<div class=""><a style="vertical-align: middle;"
+							href="https://cleoconsult.com/privacy-policy/" target="_blank">
+Privacy Policy
+						</a>
+					</div>
+			</div>
+		</div> <!-- close .width-container-pro -->
+		<div class="clearfix-pro"></div>
+	</div><!-- close #progression-studios-copyright -->
+</footer>
+
+	</div><!-- close #boxed-layout-pro -->
+	<div id="pro-scroll-top">Scroll to top</div>
+	
+<style id='core-block-supports-inline-css' type='text/css'>
+/**
+ * Core styles: block-supports
+ */
+
+</style>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.4" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/cleoconsult.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.4" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/press-release-distribution/assets/js/prwirepro_main.js?ver=1.1" id="prwirepro_main-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/themes/renovation/js/navigation.js?ver=20120206" id="renovation-progression-navigation-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/themes/renovation/js/scrolltofixed.js?ver=20120206" id="scrolltofixed-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/themes/renovation/js/fitvids.js?ver=20120206" id="fitvids-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/themes/renovation/js/prettyphoto.js?ver=20120206" id="prettyPhoto-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/themes/renovation/js/flexslider.js?ver=20120206" id="flexslider-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/themes/renovation/js/masonry.js?ver=20120206" id="renovation-progression-masonry-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/themes/renovation/js/script.js?ver=20120206" id="renovation-progression-scripts-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LdoPNsUAAAAAGAFiXnBEb83eG-tqtk4UsloL2mV&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/dist/vendor/wp-polyfill-inert.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/dist/vendor/regenerator-runtime.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LdoPNsUAAAAAGAFiXnBEb83eG-tqtk4UsloL2mV","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.4" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.js?ver=3.21.2" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor/assets/js/webpack.runtime.js?ver=3.21.5" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor/assets/js/frontend-modules.js?ver=3.21.5" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/dist/hooks.js?ver=2e6d63e772894a800ba8" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/dist/i18n.js?ver=2aff907006e2aa00e26e" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/cleoconsult.com\/wp-admin\/admin-ajax.php","nonce":"a7e70e74be","urls":{"assets":"https:\/\/cleoconsult.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/cleoconsult.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/cleoconsult.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor-pro/assets/js/frontend.js?ver=3.21.2" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-includes/js/jquery/ui/core.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":true},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.21.5","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"container_grid":true,"theme_builder_v2":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"form-submissions":true},"urls":{"assets":"https:\/\/cleoconsult.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1470,"title":"Cisco%20Network%20Engineers%20%26%20Architects%20-%20Cleo%20Consulting","excerpt":"","featuredImage":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor/assets/js/frontend.js?ver=3.21.5" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.js?ver=3.21.2" id="pro-elements-handlers-js"></script>
+<script type="text/javascript" id="upk-site-js-extra">
+/* <![CDATA[ */
+var UltimatePostKitConfig = {"ajaxurl":"https:\/\/cleoconsult.com\/wp-admin\/admin-ajax.php","nonce":"217c3ef22d","mailchimp":{"subscribing":"Subscribing you please wait..."},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cleoconsult.com/wp-content/plugins/ultimate-post-kit/assets/js/upk-site.min.js?ver=3.11.6" id="upk-site-js"></script>
+
+
+
+<!-- Starting Icon Display Code For Social Media Icon From Acurax International www.acurax.com -->
+<div id='divBottomRight' style='text-align:center;'><a href='https://www.facebook.com/cleoconsult' target='_blank'  title='Visit Us On Facebook'><img src='https://cleoconsult.com/wp-content/plugins/floating-social-media-icon/images/themes/1/facebook.png' style='border:0px;' alt='Visit Us On Facebook' height='32px' width='32px' /></a><a href='http://www.twitter.com/cleoconsult' target='_blank'   title='Visit Us On Twitter'><img src='https://cleoconsult.com/wp-content/plugins/floating-social-media-icon/images/themes/1/twitter.png' style='border:0px;' alt='Visit Us On Twitter' height='32px' width='32px' /></a><a href=' https://www.linkedin.com/company/cleo-consulting-inc-?trk=biz-companies-cym' target='_blank'  title='Visit Us On Linkedin'><img src='https://cleoconsult.com/wp-content/plugins/floating-social-media-icon/images/themes/1/linkedin.png' style='border:0px;' alt='Visit Us On Linkedin' height='32px' width='32px' /></a></div>
+<!-- Ending Icon Display Code For Social Media Icon From Acurax International www.acurax.com -->
+
+
+
+
+
+<!-- Starting Javascript For Social Media Icon From Acurax International www.acurax.com -->
+	<script type="text/javascript">
+	var ns = (navigator.appName.indexOf("Netscape") != -1);
+	var d = document;
+	var px = document.layers ? "" : "px";
+	function JSFX_FloatDiv(id, sx, sy)
+	{
+		var el=d.getElementById?d.getElementById(id):d.all?d.all[id]:d.layers[id];
+		window[id + "_obj"] = el;
+		if(d.layers)el.style=el;
+		el.cx = el.sx = sx;el.cy = el.sy = sy;
+		el.sP=function(x,y){this.style.left=x+px;this.style.top=y+px;};
+		el.flt=function()
+		{
+			var pX, pY;
+			pX = (this.sx >= 0) ? 0 : ns ? innerWidth : 
+			document.documentElement && document.documentElement.clientWidth ? 
+			document.documentElement.clientWidth : document.body.clientWidth;
+			pY = ns ? pageYOffset : document.documentElement && document.documentElement.scrollTop ? 
+			document.documentElement.scrollTop : document.body.scrollTop;
+			if(this.sy<0) 
+			pY += ns ? innerHeight : document.documentElement && document.documentElement.clientHeight ? 
+			document.documentElement.clientHeight : document.body.clientHeight;
+			this.cx += (pX + this.sx - this.cx)/8;this.cy += (pY + this.sy - this.cy)/8;
+			this.sP(this.cx, this.cy);
+			setTimeout(this.id + "_obj.flt()", 40);
+		}
+		return el;
+	}
+	jQuery( document ).ready(function() {
+	JSFX_FloatDiv("divBottomRight", -170, -55).flt();
+	});
+	</script>
+	<!-- Ending Javascript Code For Social Media Icon From Acurax International www.acurax.com -->
+
+
+</body>
+</html>
