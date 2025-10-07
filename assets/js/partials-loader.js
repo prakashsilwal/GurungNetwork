@@ -1,43 +1,49 @@
 // assets/js/partials-loader.js
-async function inject(id, url) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  const res = await fetch(url + `?v=${Date.now()}`, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
-  el.innerHTML = await res.text();
-}
+(async () => {
+  // Resolve paths relative to <base> if present; otherwise relative to current page
+  const baseHref = document.querySelector('base')?.href || window.location.href;
+  const resolve = (p) => new URL(p, baseHref).href;
 
-function loadScript(src) {
-  return new Promise((resolve, reject) => {
-    const s = document.createElement("script");
-    s.src = src;
-    s.onload = resolve;
-    s.onerror = reject;
-    document.body.appendChild(s);
-  });
-}
-
-// Always remove preloader
-window.addEventListener("load", () => {
-  document.getElementById("preloader")?.remove();
-});
-
-document.addEventListener("DOMContentLoaded", async () => {
-  try {
-    // Absolute paths so it works on subpages too
-    await Promise.all([
-      inject("site-header", "/partials/header.html"),
-      inject("site-footer", "/partials/footer.html"),
-    ]);
-
-    // Make sure AOS shows your sections even if main.js hasn't run yet
-    if (window.AOS) {
-      AOS.init({ duration: 600, once: true });
-    }
-
-    // Load your template logic AFTER header/footer exist (cache-bust in dev)
-    await loadScript("/assets/js/main.js?v=" + Date.now());
-  } catch (e) {
-    console.error("Partials loader error:", e);
+  async function inject(id, path) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const url = resolve(path) + (path.includes('?') ? '' : `?v=${Date.now()}`);
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.status}`);
+    el.innerHTML = await res.text();
   }
-});
+
+  function loadScript(path) {
+    return new Promise((resolveFn, rejectFn) => {
+      const s = document.createElement('script');
+      s.src = resolve(path) + (path.includes('?') ? '' : `?v=${Date.now()}`);
+      s.onload = resolveFn;
+      s.onerror = rejectFn;
+      document.body.appendChild(s);
+    });
+  }
+
+  // Always remove preloader (fallback timeout in case JS errors elsewhere)
+  const killPreloader = () => document.getElementById('preloader')?.remove();
+  window.addEventListener('load', killPreloader);
+  setTimeout(killPreloader, 3000);
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    try {
+      // ✅ NO leading slashes
+      await Promise.all([
+        inject('site-header', 'partials/header.html'),
+        inject('site-footer', 'partials/footer.html'),
+      ]);
+
+      // Initialize AOS if available
+      if (window.AOS) AOS.init({ duration: 600, once: true });
+
+      // Load template logic AFTER header/footer exist
+      await loadScript('assets/js/main.js');
+    } catch (e) {
+      console.error('Partials loader error:', e);
+      killPreloader();
+    }
+  });
+})();
