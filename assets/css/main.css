@@ -1727,6 +1727,8 @@ section,
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
+/* Hide topbar on service pages only */
+.services-page .topbar { display: none; }
 
 /*--------------------------------------------------------------
 # Starter Section Section

@@ -1,0 +1,62 @@
+<!-- partials/header.html -->
+<header id="header" class="header sticky-top" role="banner">
+  <!-- Top Bar -->
+  <div class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center">
+          <a href="mailto:Dnetworkingtechnology@gmail.com">Dnetworkingtechnology@gmail.com</a>
+        </i>
+        <i class="bi bi-phone d-flex align-items-center ms-4">
+          <a href="tel:+155895548855"><span>+1 5589 55488 55</span></a>
+        </i>
+      </div>
+
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- End Top Bar -->
+
+  <div class="branding d-flex align-items-center">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+      <!-- Logo always returns to site root -->
+      <a href="/" class="logo d-flex align-items-center me-auto">
+        <img src="/assets/img/logo.png" alt="DNET logo">
+      </a>
+
+      <!-- Main Nav -->
+      <nav id="navmenu" class="navmenu" role="navigation" aria-label="Main">
+        <ul>
+          <!-- Use absolute anchors so they work from subpages -->
+          <li><a href="/#hero" data-root class="active">Home</a></li>
+          <li><a href="/#about" data-root>About</a></li>
+          <li><a href="/#services" data-root>Services</a></li>
+          <li><a href="/#departments" data-root>Departments</a></li>
+
+          <!-- Real service pages -->
+          <li class="dropdown">
+            <a href="#"><span>Our Services</span> <i class="bi bi-chevron-down toggle-dropdown" aria-hidden="true"></i></a>
+            <ul>
+              <li><a href="/services/networking-cabling/">Networking &amp; Cabling</a></li>
+              <li><a href="/services/switching-routing-wifi/">Switching, Routing &amp; Wi-Fi</a></li>
+              <li><a href="/services/security-access/">Security, CCTV &amp; Access</a></li>
+              <li><a href="/services/office-relocation/">Office Relocation &amp; New Sites</a></li>
+              <li><a href="/services/data-recovery/">Backup, Recovery &amp; Data</a></li>
+              <li><a href="/services/web-seo-software/">Web, SEO &amp; Custom Software</a></li>
+              <li><a href="/services/managed-it-cloud/">Managed IT &amp; Cloud</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/#contact" data-root>Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Toggle navigation" role="button" tabindex="0"></i>
+      </nav>
+    </div>
+  </div>
+</header>
