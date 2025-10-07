@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <base href="https://prakashsilwal.github.io/GurungNetwork/">
+  <!-- Dynamic <base> for local dev + GitHub Pages -->
+  <script>
+    (function () {
+      var isPages = location.hostname.endsWith('github.io');
+      var parts = location.pathname.split('/').filter(Boolean);
+      var repoBase = isPages ? ('/' + (parts[0] || '') + '/') : '/';
+      var base = document.createElement('base');
+      base.href = location.origin + repoBase;
+      document.head.insertBefore(base, document.head.firstChild);
+    })();
+  </script>
+
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Dgital Networking Technology</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <title>Digital Networking Technology</title>
+  <meta name="description" content="DNET plans, builds, and supports networking, IT & cloud, security, and web/app solutions with clean workmanship and responsive support." />
+  <meta name="keywords" content="structured cabling, network installation, CCTV, access control, managed IT, cloud services, web development, SEO" />
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon" />
@@ -15,7 +26,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900&family=Poppins:wght@300;400;600;700;800&family=Raleway:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -30,7 +41,7 @@
 </head>
 
 <body class="index-page">
-  <!-- Injected header -->
+  <!-- Injected header via partial -->
   <div id="site-header"></div>
 
   <main class="main">
@@ -42,21 +53,19 @@
           <h2>WELCOME TO DIGITAL NETWORK ENGINEERING TECHNOLOGY</h2>
           <p>Structured. Secured. Seamless. Expert Networking for Every Building</p>
         </div>
-        <!-- End Welcome -->
 
         <div class="content row gy-4">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
               <h3>Why Choose DNET?</h3>
               <p>
-                We design, install, and support the technology your building runs on—from Cat6/fiber cabling, Wi-Fi, and clean IDF/MDF racks to CCTV, access control, fire alarm, cloud, and IT. One accountable team, tidy and certified work, and fast local support—so your network is reliable, secure, and ready to grow.
+                We design, install, and support the technology your building runs on—from Cat6/fiber cabling, Wi-Fi, and clean IDF/MDF racks to CCTV, access control, cloud, and IT. One accountable team, tidy and certified work, and responsive support—so your network is reliable, secure, and ready to grow.
               </p>
               <div class="text-center">
                 <a href="#about" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
               </div>
             </div>
           </div>
-          <!-- End Why Box -->
 
           <div class="col-lg-8 d-flex align-items-stretch">
             <div class="d-flex flex-column justify-content-center">
@@ -70,16 +79,16 @@
                   </div>
                 </div>
 
-                <!-- 2) Security & Life Safety -->
+                <!-- 2) Security -->
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
                     <i class="bi bi-shield-lock"></i>
-                    <h4>Security & Life Safety</h4>
-                    <p>CCTV with NVR/VMS & remote viewing, access control with magnetic locks, intercoms, and low-voltage fire alarm systems.</p>
+                    <h4>Security & Access</h4>
+                    <p>CCTV with NVR/VMS & remote viewing, access control with magnetic locks, intercoms, and hardened device networks.</p>
                   </div>
                 </div>
 
-                <!-- 3) IT, Cloud & Digital Solutions -->
+                <!-- 3) IT, Cloud & Digital -->
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
                     <i class="bi bi-cloud-check"></i>
@@ -87,11 +96,10 @@
                     <p>Managed IT support, backups & data retrieval, cloud setup & hosting, business websites & SEO, and custom internal apps.</p>
                   </div>
                 </div>
-              </div>
+              </div><!-- /.row -->
             </div>
           </div>
-        </div>
-        <!-- End Content -->
+        </div><!-- End Content -->
       </div>
     </section>
     <!-- /Hero Section -->
@@ -141,18 +149,15 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div><!-- /.row -->
       </div>
     </section>
     <!-- /About Section -->
 
-    <!-- Stats Section -->
+    <!-- Stats Section (optional content placeholder) -->
     <section id="stats" class="stats section light-background">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <!-- Add stats here -->
-      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100"></div>
     </section>
-    <!-- /Stats Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -163,6 +168,7 @@
 
       <div class="container">
         <div class="row gy-4">
+          <!-- Sample item kept -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon"><i class="fas fa-heartbeat"></i></div>
@@ -189,7 +195,7 @@
             </div>
           </div>
 
-          <!-- B) Security, CCTV & Access Control -->
+          <!-- B) Security, CCTV & Access -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative h-100">
               <div class="icon"><i class="fa-solid fa-video"></i></div>
@@ -207,7 +213,7 @@
             </div>
           </div>
 
-          <!-- D) Backup, Recovery & Data Retrieval -->
+          <!-- D) Backup, Recovery & Data -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative h-100">
               <div class="icon"><i class="fa-solid fa-database"></i></div>
@@ -233,21 +239,12 @@
               <p>Helpdesk/on-site, patching, M365/Google, hosting/VPS, cloud backup, firewalls/VPN, endpoint security.</p>
             </div>
           </div>
-
-          <!-- Maintenance -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="fa-solid fa-tools"></i></div>
-              <a href="#" class="stretched-link"><h3>Maintenance & Troubleshooting</h3></a>
-              <p>From diagnostics to upgrades, our team provides reliable, ongoing support to keep your network performing at its best.</p>
-            </div>
-          </div>
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section>
     <!-- /Services Section -->
 
-    <!-- Departments Section -->
+    <!-- Lead Technician -->
     <section id="departments" class="departments section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Lead Technician Profile</h2>
@@ -269,9 +266,9 @@
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Lead Network Technician & Founder</h3>
-                    <p class="fst-italic">Tilak is a seasoned IT and network engineering professional with over 10 years of hands-on experience in the field. He holds a Master’s degree in Networking and has built a career delivering high-quality IT solutions to clients across diverse sectors — from large enterprises to small businesses, and residential homes.</p>
+                    <p class="fst-italic">Tilak is a seasoned IT and network engineering professional with over 10 years of hands-on experience in the field. He holds a Master’s degree in Networking and has built a career delivering high-quality IT solutions to clients across diverse sectors—from large enterprises to small businesses, and residential homes.</p>
                     <p>Throughout his career, Tilak has successfully planned and deployed private network infrastructures, structured cabling systems, CCTV surveillance setups, and comprehensive IT support services. His expertise spans both commercial and residential environments, making him a trusted partner for robust and secure connectivity solutions.</p>
-                    <p>Having spent several years working with Spectrum, one of the nation’s leading telecommunications companies, Tilak brings deep industry knowledge and a commitment to excellence in every project. Whether you're looking to upgrade your home network, implement an enterprise-grade solution, or secure your building with advanced surveillance systems, Tilak brings the experience, professionalism, and dedication you can rely on.</p>
+                    <p>Having spent several years working with Spectrum, Tilak brings deep industry knowledge and a commitment to excellence in every project. Whether you're looking to upgrade your network, implement an enterprise-grade solution, or secure your building with advanced surveillance systems, Tilak brings the experience, professionalism, and dedication you can rely on.</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-1.jpg" alt="" class="img-fluid" />
@@ -279,7 +276,6 @@
                 </div>
               </div>
 
-              <!-- Example extra tabs left intact (hidden unless used) -->
               <div class="tab-pane" id="departments-tab-2"></div>
               <div class="tab-pane" id="departments-tab-3"></div>
               <div class="tab-pane" id="departments-tab-4"></div>
@@ -289,18 +285,14 @@
         </div>
       </div>
     </section>
-    <!-- /Departments Section -->
 
-    
-    <!-- /Faq Section -->
-
-    <!-- Testimonials Section -->
+    <!-- Testimonials -->
     <section id="testimonials" class="testimonials section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
             <h3>Testimonials</h3>
-            <p>At Digital Network Engineering Technology, our clients’ satisfaction is at the heart of everything we do. With over a decade of hands-on experience, we’ve had the privilege of serving homeowners, small businesses, and large enterprises alike. Here’s what some of our clients have to say about the quality, reliability, and professionalism of our work</p>
+            <p>At Digital Network Engineering Technology, our clients’ satisfaction is at the heart of everything we do. With over a decade of hands-on experience, we’ve had the privilege of serving homeowners, small businesses, and large enterprises alike. Here’s what some of our clients have to say about the quality, reliability, and professionalism of our work.</p>
           </div>
 
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
@@ -316,20 +308,20 @@
               </script>
 
               <div class="swiper-wrapper">
-                <!-- Slides kept as-is -->
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="" />
+                      <!-- NOTE: this file was .JPG in your repo -->
+                      <img src="assets/img/testimonials/testimonials-1.JPG" class="testimonial-img flex-shrink-0" alt="" />
                       <div>
-                        <h3>prakash silwal</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        <h3>Prakash Silwal</h3>
+                        <h4>CEO &amp; Founder</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                       </div>
                     </div>
-                    <p><i class="bi bi-quote quote-icon-left"></i><span>We hired Tilak to upgrade our building’s entire network infrastructure, and the results were flawless. He delivered ahead of schedule and with absolute precision</span><i class="bi bi-quote quote-icon-right"></i></p>
+                    <p><i class="bi bi-quote quote-icon-left"></i><span>We hired Tilak to upgrade our building’s entire network infrastructure, and the results were flawless. He delivered ahead of schedule and with absolute precision.</span><i class="bi bi-quote quote-icon-right"></i></p>
                   </div>
                 </div>
 
@@ -376,7 +368,7 @@
                         </div>
                       </div>
                     </div>
-                    <p><i class="bi bi-quote quote-icon-left"></i><span>I needed a secure home network and surveillance system. Tilak explained everything clearly and executed the job efficiently. Highly recommend him for residential work</span><i class="bi bi-quote quote-icon-right"></i></p>
+                    <p><i class="bi bi-quote quote-icon-left"></i><span>I needed a secure home network and surveillance system. Tilak explained everything clearly and executed the job efficiently. Highly recommend him for residential work.</span><i class="bi bi-quote quote-icon-right"></i></p>
                   </div>
                 </div>
 
@@ -395,7 +387,7 @@
                     <p><i class="bi bi-quote quote-icon-left"></i><span>As a former Spectrum tech, Tilak brings enterprise-level skill to small business needs. His 24/7 support and professionalism stand out.</span><i class="bi bi-quote quote-icon-right"></i></p>
                   </div>
                 </div>
-              </div><!-- /.swiper-wrapper -->
+              </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
@@ -413,7 +405,6 @@
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
         <div class="row g-0">
-          <!-- Gallery items kept as-is -->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
@@ -421,7 +412,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
@@ -429,7 +419,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
@@ -437,7 +426,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
@@ -445,7 +433,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
@@ -453,7 +440,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
@@ -461,7 +447,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
@@ -469,7 +454,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-9.jpg" class="glightbox" data-gallery="images-gallery">
@@ -477,7 +461,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
@@ -503,8 +486,7 @@
           style="border:0; width: 100%; height: 270px;"
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -536,299 +518,269 @@
           </div>
 
           <div class="col-lg-8">
+            <!-- Contact/Quote form -->
             <form id="contact-form"
-      action="https://formspree.io/f/xpwdnbkr"
-      method="POST"
-      accept-charset="UTF-8"
-      class="php-email-form needs-validation"
-      data-aos="fade-up"
-      data-aos-delay="200"
-      novalidate>
+                  action="https://formspree.io/f/xpwdnbkr"
+                  method="POST"
+                  accept-charset="UTF-8"
+                  class="php-email-form needs-validation"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  novalidate>
 
-  <!-- Honeypot (blocks bots) -->
-  <input type="text" name="company_website" class="d-none" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <!-- Honeypot -->
+              <input type="text" name="company_website" class="d-none" tabindex="-1" autocomplete="off" aria-hidden="true">
 
-  <div class="row g-3">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="q-name" class="form-label">Your Name</label>
+                  <input id="q-name" type="text" name="name" class="form-control" placeholder="John Doe" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
 
-    <!-- Contact basics -->
-    <div class="col-md-6">
-      <label for="q-name" class="form-label">Your Name</label>
-      <input id="q-name" type="text" name="name" class="form-control" placeholder="John Doe" required>
-      <div class="invalid-feedback">Please enter your name.</div>
-    </div>
+                <div class="col-md-6">
+                  <label for="q-email" class="form-label">Email</label>
+                  <input id="q-email" type="email" name="email" class="form-control" placeholder="name@email.com">
+                  <div class="form-text">Provide email or phone (at least one).</div>
+                  <div class="invalid-feedback">Enter a valid email or leave blank if using phone.</div>
+                </div>
 
-    <div class="col-md-6">
-      <label for="q-email" class="form-label">Email</label>
-      <input id="q-email" type="email" name="email" class="form-control" placeholder="name@email.com">
-      <div class="form-text">Provide email or phone (at least one).</div>
-      <div class="invalid-feedback">Enter a valid email or leave blank if using phone.</div>
-    </div>
+                <div class="col-md-6">
+                  <label for="q-phone" class="form-label">Phone</label>
+                  <input id="q-phone" type="tel" name="phone" class="form-control" inputmode="tel"
+                         placeholder="(555) 123-4567" pattern="^[0-9+()\-.\s]{7,20}$">
+                  <div class="invalid-feedback">Enter a valid phone or leave blank if using email.</div>
+                </div>
 
-    <div class="col-md-6">
-      <label for="q-phone" class="form-label">Phone</label>
-      <input id="q-phone" type="tel" name="phone" class="form-control" inputmode="tel"
-             placeholder="(555) 123-4567" pattern="^[0-9+()\-.\s]{7,20}$">
-      <div class="invalid-feedback">Enter a valid phone or leave blank if using email.</div>
-    </div>
+                <div class="col-md-3">
+                  <label for="q-zip" class="form-label">ZIP Code</label>
+                  <input id="q-zip" type="text" name="zip" class="form-control" inputmode="numeric"
+                         placeholder="27101" pattern="^\d{5}(-\d{4})?$" required>
+                  <div class="invalid-feedback">Enter a valid ZIP (e.g., 27101).</div>
+                </div>
 
-    <div class="col-md-3">
-      <label for="q-zip" class="form-label">ZIP Code</label>
-      <input id="q-zip" type="text" name="zip" class="form-control" inputmode="numeric"
-             placeholder="27101" pattern="^\d{5}(-\d{4})?$" required>
-      <div class="invalid-feedback">Enter a valid ZIP (e.g., 27101).</div>
-    </div>
+                <div class="col-md-3">
+                  <label for="q-city" class="form-label">City</label>
+                  <input id="q-city" type="text" name="city" class="form-control" placeholder="Winston-Salem">
+                  <div class="invalid-feedback">Please enter a city.</div>
+                </div>
 
-    <div class="col-md-3">
-      <label for="q-city" class="form-label">City</label>
-      <input id="q-city" type="text" name="city" class="form-control" placeholder="Winston-Salem">
-      <div class="invalid-feedback">Please enter a city.</div>
-    </div>
+                <!-- Services -->
+                <div class="col-12">
+                  <label class="form-label d-flex align-items-center">
+                    What can we help with? <span class="ms-1 text-danger">*</span>
+                  </label>
+                  <div class="row row-cols-1 row-cols-md-2 g-2">
+                    <div class="col"><div class="form-check">
+                      <input class="form-check-input need-one" type="checkbox" name="services" value="Networking & Cabling" id="s1">
+                      <label class="form-check-label" for="s1">Networking &amp; Cabling</label>
+                    </div></div>
+                    <div class="col"><div class="form-check">
+                      <input class="form-check-input need-one" type="checkbox" name="services" value="Switching, Routing & Wi-Fi" id="s2">
+                      <label class="form-check-label" for="s2">Switching, Routing &amp; Wi-Fi</label>
+                    </div></div>
+                    <div class="col"><div class="form-check">
+                      <input class="form-check-input need-one" type="checkbox" name="services" value="Security, CCTV & Access" id="s3">
+                      <label class="form-check-label" for="s3">Security, CCTV &amp; Access</label>
+                    </div></div>
+                    <div class="col"><div class="form-check">
+                      <input class="form-check-input need-one" type="checkbox" name="services" value="Office Relocation / New Site" id="s4">
+                      <label class="form-check-label" for="s4">Office Relocation / New Site</label>
+                    </div></div>
+                    <div class="col"><div class="form-check">
+                      <input class="form-check-input need-one" type="checkbox" name="services" value="Backup, Recovery & Data" id="s5">
+                      <label class="form-check-label" for="s5">Backup, Recovery &amp; Data</label>
+                    </div></div>
+                    <div class="col"><div class="form-check">
+                      <input class="form-check-input need-one" type="checkbox" name="services" value="Managed IT & Cloud" id="s6">
+                      <label class="form-check-label" for="s6">Managed IT &amp; Cloud</label>
+                    </div></div>
+                    <div class="col"><div class="form-check">
+                      <input class="form-check-input need-one" type="checkbox" name="services" value="Web, SEO & Software" id="s7">
+                      <label class="form-check-label" for="s7">Web, SEO &amp; Custom Software</label>
+                    </div></div>
+                  </div>
+                  <div class="invalid-feedback d-block d-none" id="services-error">Please select at least one service.</div>
+                </div>
 
-    <!-- What do you need? -->
-    <div class="col-12">
-      <label class="form-label d-flex align-items-center">
-        What can we help with? <span class="ms-1 text-danger">*</span>
-      </label>
-      <div class="row row-cols-1 row-cols-md-2 g-2">
-        <div class="col"><div class="form-check">
-          <input class="form-check-input need-one" type="checkbox" name="services" value="Networking & Cabling" id="s1">
-          <label class="form-check-label" for="s1">Networking &amp; Cabling</label>
-        </div></div>
-        <div class="col"><div class="form-check">
-          <input class="form-check-input need-one" type="checkbox" name="services" value="Switching, Routing & Wi-Fi" id="s2">
-          <label class="form-check-label" for="s2">Switching, Routing &amp; Wi-Fi</label>
-        </div></div>
-        <div class="col"><div class="form-check">
-          <input class="form-check-input need-one" type="checkbox" name="services" value="Security, CCTV & Access" id="s3">
-          <label class="form-check-label" for="s3">Security, CCTV &amp; Access</label>
-        </div></div>
-        <div class="col"><div class="form-check">
-          <input class="form-check-input need-one" type="checkbox" name="services" value="Office Relocation / New Site" id="s4">
-          <label class="form-check-label" for="s4">Office Relocation / New Site</label>
-        </div></div>
-        <div class="col"><div class="form-check">
-          <input class="form-check-input need-one" type="checkbox" name="services" value="Backup, Recovery & Data" id="s5">
-          <label class="form-check-label" for="s5">Backup, Recovery &amp; Data</label>
-        </div></div>
-        <div class="col"><div class="form-check">
-          <input class="form-check-input need-one" type="checkbox" name="services" value="Managed IT & Cloud" id="s6">
-          <label class="form-check-label" for="s6">Managed IT &amp; Cloud</label>
-        </div></div>
-        <div class="col"><div class="form-check">
-          <input class="form-check-input need-one" type="checkbox" name="services" value="Web, SEO & Software" id="s7">
-          <label class="form-check-label" for="s7">Web, SEO &amp; Custom Software</label>
-        </div></div>
-      </div>
-      <div class="invalid-feedback d-block d-none" id="services-error">Please select at least one service.</div>
-    </div>
+                <div class="col-md-6">
+                  <label for="q-site-type" class="form-label">Site Type</label>
+                  <select id="q-site-type" class="form-select" name="site_type">
+                    <option value="">Choose...</option>
+                    <option>Office</option>
+                    <option>Warehouse / Industrial</option>
+                    <option>Retail / Restaurant</option>
+                    <option>Residential</option>
+                    <option>Campus / Multi-site</option>
+                  </select>
+                </div>
 
-    <!-- Project details -->
-    <div class="col-md-6">
-      <label for="q-site-type" class="form-label">Site Type</label>
-      <select id="q-site-type" class="form-select" name="site_type">
-        <option value="">Choose...</option>
-        <option>Office</option>
-        <option>Warehouse / Industrial</option>
-        <option>Retail / Restaurant</option>
-        <option>Residential</option>
-        <option>Campus / Multi-site</option>
-      </select>
-    </div>
+                <div class="col-md-6">
+                  <label for="q-project-stage" class="form-label">Project Stage</label>
+                  <select id="q-project-stage" class="form-select" name="project_stage">
+                    <option value="">Choose...</option>
+                    <option>Planning / Bidding</option>
+                    <option>Permitting / Pre-wire</option>
+                    <option>Active Buildout</option>
+                    <option>Existing Site / Upgrade</option>
+                    <option>Emergency / Outage</option>
+                  </select>
+                </div>
 
-    <div class="col-md-6">
-      <label for="q-project-stage" class="form-label">Project Stage</label>
-      <select id="q-project-stage" class="form-select" name="project_stage">
-        <option value="">Choose...</option>
-        <option>Planning / Bidding</option>
-        <option>Permitting / Pre-wire</option>
-        <option>Active Buildout</option>
-        <option>Existing Site / Upgrade</option>
-        <option>Emergency / Outage</option>
-      </select>
-    </div>
+                <div class="col-md-6">
+                  <label for="q-budget" class="form-label">Rough Budget</label>
+                  <select id="q-budget" class="form-select" name="budget">
+                    <option value="">Select range (optional)</option>
+                    <option>Under $2,500</option>
+                    <option>$2,500 – $10,000</option>
+                    <option>$10,000 – $25,000</option>
+                    <option>$25,000 – $50,000</option>
+                    <option>$50,000+</option>
+                  </select>
+                </div>
 
-    <div class="col-md-6">
-      <label for="q-budget" class="form-label">Rough Budget</label>
-      <select id="q-budget" class="form-select" name="budget">
-        <option value="">Select range (optional)</option>
-        <option>Under $2,500</option>
-        <option>$2,500 – $10,000</option>
-        <option>$10,000 – $25,000</option>
-        <option>$25,000 – $50,000</option>
-        <option>$50,000+</option>
-      </select>
-    </div>
+                <div class="col-md-6">
+                  <label for="q-timeline" class="form-label">Timeline</label>
+                  <select id="q-timeline" class="form-select" name="timeline">
+                    <option value="">Choose...</option>
+                    <option>ASAP</option>
+                    <option>2–4 weeks</option>
+                    <option>1–2 months</option>
+                    <option>3+ months</option>
+                  </select>
+                </div>
 
-    <div class="col-md-6">
-      <label for="q-timeline" class="form-label">Timeline</label>
-      <select id="q-timeline" class="form-select" name="timeline">
-        <option value="">Choose...</option>
-        <option>ASAP</option>
-        <option>2–4 weeks</option>
-        <option>1–2 months</option>
-        <option>3+ months</option>
-      </select>
-    </div>
+                <div class="col-md-6">
+                  <label class="form-label">Preferred Contact</label>
+                  <div class="d-flex gap-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="contact_method" id="c-email" value="Email" checked>
+                      <label class="form-check-label" for="c-email">Email</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="contact_method" id="c-phone" value="Phone">
+                      <label class="form-check-label" for="c-phone">Phone</label>
+                    </div>
+                  </div>
+                </div>
 
-    <!-- Contact preference -->
-    <div class="col-md-6">
-      <label class="form-label">Preferred Contact</label>
-      <div class="d-flex gap-3">
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="contact_method" id="c-email" value="Email" checked>
-          <label class="form-check-label" for="c-email">Email</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="contact_method" id="c-phone" value="Phone">
-          <label class="form-check-label" for="c-phone">Phone</label>
-        </div>
-      </div>
-    </div>
+                <div class="col-md-6">
+                  <label for="q-best-time" class="form-label">Best Time to Reach</label>
+                  <select id="q-best-time" class="form-select" name="best_time">
+                    <option value="">Anytime</option>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                  </select>
+                </div>
 
-    <div class="col-md-6">
-      <label for="q-best-time" class="form-label">Best Time to Reach</label>
-      <select id="q-best-time" class="form-select" name="best_time">
-        <option value="">Anytime</option>
-        <option>Morning</option>
-        <option>Afternoon</option>
-        <option>Evening</option>
-      </select>
-    </div>
+                <div class="col-12">
+                  <label for="q-message" class="form-label">Brief Description</label>
+                  <textarea id="q-message" name="message" class="form-control" rows="5"
+                            placeholder="Tell us the scope: # of drops, rooms, floors, cameras, APs, etc." required></textarea>
+                  <div class="invalid-feedback">Please add a short description.</div>
+                  <div class="form-text">Optional: paste a link to floor plans or photos (Drive/Dropbox).</div>
+                </div>
 
-    <!-- Message -->
-    <div class="col-12">
-      <label for="q-message" class="form-label">Brief Description</label>
-      <textarea id="q-message" name="message" class="form-control" rows="5"
-                placeholder="Tell us the scope: # of drops, rooms, floors, cameras, APs, etc." required></textarea>
-      <div class="invalid-feedback">Please add a short description.</div>
-      <div class="form-text">
-        Optional: paste a link to floor plans or photos (Drive/Dropbox).
-      </div>
-    </div>
+                <input type="hidden" id="q-subject" name="_subject" value="New Quote Request">
 
-    <!-- Hidden subject (auto-filled by script) -->
-    <input type="hidden" id="q-subject" name="_subject" value="New Quote Request">
+                <div class="col-12 text-center">
+                  <button id="q-submit" type="submit" class="btn btn-primary px-4">
+                    <span class="btn-text">Request Quote</span>
+                    <span class="spinner-border spinner-border-sm align-text-bottom d-none" role="status" aria-hidden="true"></span>
+                  </button>
+                  <div class="small text-muted mt-2">We typically reply within one business day.</div>
+                </div>
+              </div>
 
-    <!-- Submit -->
-    <div class="col-12 text-center">
-      <button id="q-submit" type="submit" class="btn btn-primary px-4">
-        <span class="btn-text">Request Quote</span>
-        <span class="spinner-border spinner-border-sm align-text-bottom d-none" role="status" aria-hidden="true"></span>
-      </button>
-      <div class="small text-muted mt-2">We typically reply within one business day.</div>
-    </div>
-
-  </div>
-
-  <div id="form-response" class="mt-3"></div>
-</form>
-
+              <div id="form-response" class="mt-3"></div>
+            </form>
 
             <script>
-(() => {
-  const form = document.getElementById("contact-form");
-  const responseBox = document.getElementById("form-response");
-  const submitBtn = document.getElementById("q-submit");
-  const spinner = submitBtn?.querySelector(".spinner-border");
-  const btnText = submitBtn?.querySelector(".btn-text");
-  const servicesError = document.getElementById("services-error");
+              (() => {
+                const form = document.getElementById("contact-form");
+                const responseBox = document.getElementById("form-response");
+                const submitBtn = document.getElementById("q-submit");
+                const spinner = submitBtn?.querySelector(".spinner-border");
+                const btnText = submitBtn?.querySelector(".btn-text");
+                const servicesError = document.getElementById("services-error");
 
-  // Helper: show alerts
-  function showAlert(type, html) {
-    responseBox.innerHTML = `<div class="alert alert-${type} mt-3" role="alert">${html}</div>`;
-  }
+                function showAlert(type, html) {
+                  responseBox.innerHTML = `<div class="alert alert-${type} mt-3" role="alert">${html}</div>`;
+                }
+                function hasOneService() {
+                  return [...form.querySelectorAll('.need-one')].some(cb => cb.checked);
+                }
+                function hasOneContact() {
+                  const email = form.querySelector('#q-email').value.trim();
+                  const phone = form.querySelector('#q-phone').value.trim();
+                  return !!(email || phone);
+                }
+                function buildSubject() {
+                  const selected = [...form.querySelectorAll('.need-one:checked')].map(cb => cb.value);
+                  return selected.length ? `Quote Request: ${selected.join(', ')}` : 'New Quote Request';
+                }
 
-  // Helper: at least one service
-  function hasOneService() {
-    return [...form.querySelectorAll('.need-one')].some(cb => cb.checked);
-  }
+                form.addEventListener('submit', async (e) => {
+                  e.preventDefault();
+                  responseBox.innerHTML = "";
 
-  // Helper: at least one contact method (email or phone)
-  function hasOneContact() {
-    const email = form.querySelector('#q-email').value.trim();
-    const phone = form.querySelector('#q-phone').value.trim();
-    return !!(email || phone);
-  }
+                  if (form.company_website && form.company_website.value) return;
 
-  // Build subject from selected services
-  function buildSubject() {
-    const selected = [...form.querySelectorAll('.need-one:checked')].map(cb => cb.value);
-    return selected.length ? `Quote Request: ${selected.join(', ')}` : 'New Quote Request';
-    }
+                  if (!form.checkValidity()) {
+                    form.classList.add('was-validated');
+                    showAlert('danger', 'Please fix the highlighted fields.');
+                    return;
+                  }
+                  if (!hasOneService()) {
+                    servicesError.classList.remove('d-none');
+                    servicesError.scrollIntoView({behavior: 'smooth', block: 'center'});
+                    showAlert('danger', 'Select at least one service so we can route your request.');
+                    return;
+                  } else {
+                    servicesError.classList.add('d-none');
+                  }
+                  if (!hasOneContact()) {
+                    showAlert('danger', 'Please provide an email or phone so we can reach you.');
+                    return;
+                  }
 
-  // Bootstrap-style validation + our custom checks
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    responseBox.innerHTML = "";
+                  const subjectField = document.getElementById('q-subject');
+                  if (subjectField) subjectField.value = buildSubject();
 
-    // Bot check
-    if (form.company_website && form.company_website.value) {
-      // silently drop
-      return;
-    }
+                  submitBtn.disabled = true;
+                  spinner?.classList.remove('d-none');
+                  if (btnText) btnText.textContent = 'Sending...';
 
-    // Native constraint checks
-    if (!form.checkValidity()) {
-      form.classList.add('was-validated');
-      showAlert('danger', 'Please fix the highlighted fields.');
-      return;
-    }
+                  try {
+                    const formData = new FormData(form);
+                    const res = await fetch(form.action, {
+                      method: 'POST',
+                      body: formData,
+                      headers: { 'Accept': 'application/json' }
+                    });
 
-    // Custom: at least one service
-    if (!hasOneService()) {
-      servicesError.classList.remove('d-none');
-      servicesError.scrollIntoView({behavior: 'smooth', block: 'center'});
-      showAlert('danger', 'Select at least one service so we can route your request.');
-      return;
-    } else {
-      servicesError.classList.add('d-none');
-    }
-
-    // Custom: at least one contact method
-    if (!hasOneContact()) {
-      showAlert('danger', 'Please provide an email or phone so we can reach you.');
-      return;
-    }
-
-    // Set subject based on services
-    const subjectField = document.getElementById('q-subject');
-    if (subjectField) subjectField.value = buildSubject();
-
-    // Submit
-    submitBtn.disabled = true;
-    spinner?.classList.remove('d-none');
-    btnText && (btnText.textContent = 'Sending...');
-
-    try {
-      const formData = new FormData(form);
-      const res = await fetch(form.action, {
-        method: 'POST',
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-      });
-
-      if (res.ok) {
-        showAlert('success', '✅ Thanks! Your request has been sent. We’ll follow up shortly.');
-        form.reset();
-        form.classList.remove('was-validated');
-      } else {
-        const data = await res.json().catch(() => ({}));
-        const msg = data && data.errors
-          ? data.errors.map(e => e.message).join('<br>')
-          : 'Something went wrong. Please try again.';
-        showAlert('danger', `❌ ${msg}`);
-      }
-    } catch (err) {
-      showAlert('danger', '❌ Network error. Please try again later.');
-    } finally {
-      submitBtn.disabled = false;
-      spinner?.classList.add('d-none');
-      btnText && (btnText.textContent = 'Request Quote');
-    }
-  });
-})();
-</script>
-
+                    if (res.ok) {
+                      showAlert('success', '✅ Thanks! Your request has been sent. We’ll follow up shortly.');
+                      form.reset();
+                      form.classList.remove('was-validated');
+                    } else {
+                      const data = await res.json().catch(() => ({}));
+                      const msg = data && data.errors
+                        ? data.errors.map(e => e.message).join('<br>')
+                        : 'Something went wrong. Please try again.';
+                      showAlert('danger', `❌ ${msg}`);
+                    }
+                  } catch (err) {
+                    showAlert('danger', '❌ Network error. Please try again later.');
+                  } finally {
+                    submitBtn.disabled = false;
+                    spinner?.classList.add('d-none');
+                    if (btnText) btnText.textContent = 'Request Quote';
+                  }
+                });
+              })();
+            </script>
           </div><!-- End Contact Form -->
         </div>
       </div>
@@ -836,7 +788,7 @@
     <!-- /Contact Section -->
   </main>
 
-    <!-- Injected footer -->
+  <!-- Injected footer via partial -->
   <div id="site-footer"></div>
 
   <!-- Scroll Top -->
@@ -847,15 +799,15 @@
   <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/vendor/php-email-form/validate.js"></script>
-  <script src="/assets/vendor/aos/aos.js"></script>
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- Vendor JS Files (relative paths) -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Partials loader (injects header & footer, then loads /assets/js/main.js) -->
-  <script src="/assets/js/partials-loader.js"></script>
+  <!-- Partials loader (injects header & footer, then loads assets/js/main.js) -->
+  <script src="assets/js/partials-loader.js"></script>
 </body>
 </html>

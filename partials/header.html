@@ -24,35 +24,35 @@
 
   <div class="branding d-flex align-items-center">
     <div class="container position-relative d-flex align-items-center justify-content-between">
-      <!-- Logo always returns to site root -->
-      <a href="/" class="logo d-flex align-items-center me-auto">
-        <img src="/assets/img/logo.png" alt="DNET logo">
+      <!-- Logo (always go to home) -->
+      <a href="index.html#hero" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="DNET logo">
       </a>
 
       <!-- Main Nav -->
       <nav id="navmenu" class="navmenu" role="navigation" aria-label="Main">
         <ul>
-          <!-- Use absolute anchors so they work from subpages -->
-          <li><a href="/#hero" data-root class="active">Home</a></li>
-          <li><a href="/#about" data-root>About</a></li>
-          <li><a href="/#services" data-root>Services</a></li>
-          <li><a href="/#departments" data-root>Departments</a></li>
+          <!-- Use index.html#... so links work from service pages too -->
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#departments">Departments</a></li>
 
           <!-- Real service pages -->
           <li class="dropdown">
             <a href="#"><span>Our Services</span> <i class="bi bi-chevron-down toggle-dropdown" aria-hidden="true"></i></a>
             <ul>
-              <li><a href="/services/networking-cabling/">Networking &amp; Cabling</a></li>
-              <li><a href="/services/switching-routing-wifi/">Switching, Routing &amp; Wi-Fi</a></li>
-              <li><a href="/services/security-access/">Security, CCTV &amp; Access</a></li>
-              <li><a href="/services/office-relocation/">Office Relocation &amp; New Sites</a></li>
-              <li><a href="/services/data-recovery/">Backup, Recovery &amp; Data</a></li>
-              <li><a href="/services/web-seo-software/">Web, SEO &amp; Custom Software</a></li>
-              <li><a href="/services/managed-it-cloud/">Managed IT &amp; Cloud</a></li>
+              <li><a href="services/networking-cabling/">Networking &amp; Cabling</a></li>
+              <li><a href="services/switching-routing-wifi/">Switching, Routing &amp; Wi-Fi</a></li>
+              <li><a href="services/security-access/">Security, CCTV &amp; Access</a></li>
+              <li><a href="services/office-relocation/">Office Relocation &amp; New Sites</a></li>
+              <li><a href="services/data-recovery/">Backup, Recovery &amp; Data</a></li>
+              <li><a href="services/web-seo-software/">Web, SEO &amp; Custom Software</a></li>
+              <li><a href="services/managed-it-cloud/">Managed IT &amp; Cloud</a></li>
             </ul>
           </li>
 
-          <li><a href="/#contact" data-root>Contact</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
 
         <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Toggle navigation" role="button" tabindex="0"></i>
